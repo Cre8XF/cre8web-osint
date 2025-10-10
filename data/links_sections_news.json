@@ -1,0 +1,162 @@
+[
+  {
+    "title": "Norske nyheter 🇳🇴",
+    "desc": "De mest brukte norske nyhetskildene, fra nasjonale til regionale medier.",
+    "group": "Norske nyheter",
+    "links": [
+      { "name": "NRK", "url": "https://www.nrk.no", "desc": "Offentlig allmennkringkaster med nyheter, sport og kultur." },
+      { "name": "VG", "url": "https://www.vg.no", "desc": "Riksdekkende avis med løpende nyheter, sport og underholdning." },
+      { "name": "Dagbladet", "url": "https://www.dagbladet.no", "desc": "Norsk tabloidavis med fokus på nyheter, politikk og livsstil." },
+      { "name": "Aftenposten", "url": "https://www.aftenposten.no", "desc": "Seriøs avis med dybdejournalistikk og nasjonale nyheter." },
+      { "name": "TV 2 Nyheter", "url": "https://www.tv2.no/nyheter", "desc": "Oppdaterte nyheter, reportasjer og sport fra TV 2." },
+      { "name": "Nettavisen", "url": "https://www.nettavisen.no", "desc": "Rask nyhetsoppdatering og meninger." },
+      { "name": "Klassekampen", "url": "https://klassekampen.no", "desc": "Venstrevridd avis med fokus på arbeidsliv og politikk." },
+      { "name": "Morgenbladet", "url": "https://www.morgenbladet.no", "desc": "Ukeavis med dybdeartikler og kulturstoff." },
+      { "name": "NTB", "url": "https://www.ntb.no", "desc": "Norsk Telegrambyrå - nyhetsbyrå for norske medier." }
+    ]
+  },
+  {
+    "title": "Regionale nyheter 📍",
+    "desc": "Lokale og regionale nyhetskilder fra hele Norge.",
+    "group": "Norske nyheter",
+    "links": [
+      { "name": "Bergens Tidende", "url": "https://www.bt.no", "desc": "Vestlandets største avis med lokale og nasjonale nyheter." },
+      { "name": "Adresseavisen", "url": "https://www.adressa.no", "desc": "Trøndelags ledende nyhetskilde." },
+      { "name": "Stavanger Aftenblad", "url": "https://www.aftenbladet.no", "desc": "Rogalands største avis." },
+      { "name": "Fædrelandsvennen", "url": "https://www.fvn.no", "desc": "Kristiansands lokalavis." },
+      { "name": "Nordlys", "url": "https://www.nordlys.no", "desc": "Tromsø og Nord-Norges ledende avis." },
+      { "name": "Agderposten", "url": "https://www.agderposten.no", "desc": "Nyheter fra Agder-regionen." },
+      { "name": "Dagsavisen", "url": "https://www.dagsavisen.no", "desc": "Oslo-basert avis med progressiv profil." }
+    ]
+  },
+  {
+    "title": "Økonomi & næringsliv 💰",
+    "desc": "Kilder for økonomi, finans, og forretningsnyheter i Norge og internasjonalt.",
+    "group": "Økonomi, teknologi & vitenskap",
+    "links": [
+      { "name": "E24", "url": "https://e24.no", "desc": "Norsk nettavis for økonomi, børs og næringsliv." },
+      { "name": "Dagens Næringsliv", "url": "https://www.dn.no", "desc": "Avis med fokus på økonomi, teknologi og finans." },
+      { "name": "Finansavisen", "url": "https://finansavisen.no", "desc": "Norske finansnyheter og markedsanalyser." },
+      { "name": "Bloomberg", "url": "https://www.bloomberg.com", "desc": "Internasjonalt ledende på finans- og markedsdata." },
+      { "name": "Reuters Business", "url": "https://www.reuters.com/business", "desc": "Verdensnyheter innenfor økonomi, handel og politikk." },
+      { "name": "Financial Times", "url": "https://www.ft.com", "desc": "Britisk business-avis med global dekning." },
+      { "name": "Wall Street Journal", "url": "https://www.wsj.com", "desc": "Amerikansk finans- og businessavis." },
+      { "name": "Forbes", "url": "https://www.forbes.com", "desc": "Business-magasin med fokus på rikdom og innovasjon." },
+      { "name": "CNBC", "url": "https://www.cnbc.com", "desc": "Sanntids finansnyheter og markedsdata." },
+      { "name": "MarketWatch", "url": "https://www.marketwatch.com", "desc": "Aksjemarked, økonomi og investeringsnyheter." }
+    ]
+  },
+  {
+    "title": "Teknologi & innovasjon ⚙️",
+    "desc": "Medier som dekker teknologi, digital utvikling og IT-trender.",
+    "group": "Økonomi, teknologi & vitenskap",
+    "links": [
+      { "name": "Tek.no", "url": "https://www.tek.no", "desc": "Norsk teknologinettsted med tester og nyheter." },
+      { "name": "digi.no", "url": "https://www.digi.no", "desc": "Nyheter for IT-bransjen og teknologimiljøet." },
+      { "name": "ITavisen", "url": "https://www.itavisen.no", "desc": "Nyheter og rykter om teknologi, spill og underholdning." },
+      { "name": "The Verge", "url": "https://www.theverge.com", "desc": "Internasjonalt magasin for teknologi, vitenskap og kultur." },
+      { "name": "TechCrunch", "url": "https://techcrunch.com", "desc": "Globalt nyhetsmagasin for startups, AI og innovasjon." },
+      { "name": "Wired", "url": "https://www.wired.com", "desc": "Teknologi, vitenskap og fremtidstrender." },
+      { "name": "Ars Technica", "url": "https://arstechnica.com", "desc": "Dyptgående tekniske artikler og analyser." },
+      { "name": "Engadget", "url": "https://www.engadget.com", "desc": "Gadgets, elektronikk og forbrukerteknologi." },
+      { "name": "CNET", "url": "https://www.cnet.com", "desc": "Teknyheter, produkttester og guider." },
+      { "name": "ZDNet", "url": "https://www.zdnet.com", "desc": "Business-teknologi og IT-nyheter." },
+      { "name": "Hacker News", "url": "https://news.ycombinator.com", "desc": "Community-drevet tech news fra Y Combinator." }
+    ]
+  },
+  {
+    "title": "Vitenskap & miljø 🌱",
+    "desc": "Nyheter om forskning, klima, natur og bærekraft.",
+    "group": "Økonomi, teknologi & vitenskap",
+    "links": [
+      { "name": "Forskning.no", "url": "https://forskning.no", "desc": "Norsk portal for forskningsnyheter." },
+      { "name": "Science Daily", "url": "https://www.sciencedaily.com", "desc": "Oppdaterte forskningsnyheter fra universiteter." },
+      { "name": "Nature", "url": "https://www.nature.com", "desc": "Ledende vitenskapelig tidsskrift." },
+      { "name": "Scientific American", "url": "https://www.scientificamerican.com", "desc": "Populærvitenskapelig magasin med dybdeartikler." },
+      { "name": "New Scientist", "url": "https://www.newscientist.com", "desc": "Vitenskapsnyheter og teknologi." },
+      { "name": "National Geographic", "url": "https://www.nationalgeographic.com", "desc": "Natur, dyr, klima og kultur." },
+      { "name": "MIT Technology Review", "url": "https://www.technologyreview.com", "desc": "Fremtidsteknologi og vitenskapelige gjennombrudd." },
+      { "name": "Smithsonian Magazine", "url": "https://www.smithsonianmag.com", "desc": "Vitenskap, historie og kultur." }
+    ]
+  },
+  {
+    "title": "Internasjonale nyheter 🌍",
+    "desc": "Verdensomspennende nyhetskilder for internasjonale hendelser.",
+    "group": "Internasjonale nyheter",
+    "links": [
+      { "name": "BBC News", "url": "https://www.bbc.com/news", "desc": "Britisk allmennkringkaster med globale nyheter." },
+      { "name": "CNN", "url": "https://edition.cnn.com", "desc": "Amerikansk nyhetskanal med dekning fra hele verden." },
+      { "name": "Al Jazeera", "url": "https://www.aljazeera.com", "desc": "Nyheter og dokumentarer fra et globalt perspektiv." },
+      { "name": "Reuters", "url": "https://www.reuters.com", "desc": "Internasjonalt nyhetsbyrå med nøytral dekning." },
+      { "name": "The Guardian", "url": "https://www.theguardian.com", "desc": "Britisk avis med fokus på klima, politikk og kultur." },
+      { "name": "Associated Press", "url": "https://apnews.com", "desc": "Uavhengig globalt nyhetsbyrå." },
+      { "name": "NPR", "url": "https://www.npr.org", "desc": "Amerikansk offentlig radio med dybdenyheter." },
+      { "name": "Deutsche Welle", "url": "https://www.dw.com", "desc": "Tysk internasjonal kringkaster." },
+      { "name": "France 24", "url": "https://www.france24.com", "desc": "Fransk internasjonal nyhetskanal." },
+      { "name": "The New York Times", "url": "https://www.nytimes.com", "desc": "Amerikansk prestisjeavis med global dekning." },
+      { "name": "Washington Post", "url": "https://www.washingtonpost.com", "desc": "Amerikansk avis med fokus på politikk." },
+      { "name": "The Economist", "url": "https://www.economist.com", "desc": "Britisk ukeavis med analyse av verdensøkonomi." }
+    ]
+  },
+  {
+    "title": "Sport ⚽",
+    "desc": "Sportsmedier for fotball, vintersport og internasjonale arrangementer.",
+    "group": "Kultur, sport & samfunn",
+    "links": [
+      { "name": "NRK Sport", "url": "https://www.nrk.no/sport", "desc": "Norsk sportsjournalistikk med direkte dekning." },
+      { "name": "VG Sport", "url": "https://www.vg.no/sport", "desc": "Norske og internasjonale sportnyheter." },
+      { "name": "TV 2 Sport", "url": "https://www.tv2.no/sport", "desc": "Sport-nyheter og livesendinger." },
+      { "name": "Eurosport", "url": "https://www.eurosport.com", "desc": "Europeisk sportsdekking på tvers av idretter." },
+      { "name": "ESPN", "url": "https://www.espn.com", "desc": "Amerikansk sportsgigant med global dekning." },
+      { "name": "BBC Sport", "url": "https://www.bbc.com/sport", "desc": "Britisk sportsjournalistikk." },
+      { "name": "The Athletic", "url": "https://theathletic.com", "desc": "Dybdejournalistikk innen sport (abonnement)." },
+      { "name": "Goal.com", "url": "https://www.goal.com", "desc": "Internasjonal fotballdekning." }
+    ]
+  },
+  {
+    "title": "Underholdning & kultur 🎬",
+    "desc": "Kilder for film, musikk, spill og populærkultur.",
+    "group": "Kultur, sport & samfunn",
+    "links": [
+      { "name": "IMDb", "url": "https://www.imdb.com", "desc": "Verdens største database for film og TV-serier." },
+      { "name": "Rotten Tomatoes", "url": "https://www.rottentomatoes.com", "desc": "Vurderinger og kritikker av filmer og serier." },
+      { "name": "IGN", "url": "https://www.ign.com", "desc": "Nyheter, anmeldelser og guider for spill og popkultur." },
+      { "name": "Gamer.no", "url": "https://www.gamer.no", "desc": "Norsk nettsted for spillnyheter, e-sport og anmeldelser." },
+      { "name": "Rolling Stone", "url": "https://www.rollingstone.com", "desc": "Magasin med fokus på musikk, film og kultur." },
+      { "name": "Variety", "url": "https://variety.com", "desc": "Hollywood-nyheter og underholdningsbransjen." },
+      { "name": "Hollywood Reporter", "url": "https://www.hollywoodreporter.com", "desc": "Film, TV og entertainment business." },
+      { "name": "Polygon", "url": "https://www.polygon.com", "desc": "Gaming-nyheter og anmeldelser." },
+      { "name": "Kotaku", "url": "https://kotaku.com", "desc": "Gaming-nyheter og spillkultur." },
+      { "name": "GameSpot", "url": "https://www.gamespot.com", "desc": "Spillnyheter, trailers og anmeldelser." },
+      { "name": "Pitchfork", "url": "https://pitchfork.com", "desc": "Musikkritikk og indie-musikknyheter." },
+      { "name": "Consequence", "url": "https://consequence.net", "desc": "Musikk, film og TV-nyheter." }
+    ]
+  },
+  {
+    "title": "Politikk & samfunn 🏛️",
+    "desc": "Analyser, debatt og nyheter om politikk og samfunnsspørsmål.",
+    "group": "Kultur, sport & samfunn",
+    "links": [
+      { "name": "Politico", "url": "https://www.politico.com", "desc": "Amerikansk politikk og globale hendelser." },
+      { "name": "Document.no", "url": "https://www.document.no", "desc": "Norsk alternativt medie med konservativ profil." },
+      { "name": "Minerva", "url": "https://www.minervanett.no", "desc": "Debattmagasin med liberalkonservativt perspektiv." },
+      { "name": "Manifesto", "url": "https://www.manifestotidsskrift.no", "desc": "Politisk tidsskrift med venstreperspektiv." },
+      { "name": "Utrop", "url": "https://www.utrop.no", "desc": "Multikulturalt nyhetsmagasin." },
+      { "name": "Foreign Policy", "url": "https://foreignpolicy.com", "desc": "Internasjonal politikk og global analyse." },
+      { "name": "The Atlantic", "url": "https://www.theatlantic.com", "desc": "Amerikansk magasin med dybdeanalyser." }
+    ]
+  },
+  {
+    "title": "Faktasjekk & research 🔍",
+    "desc": "Verifisering av nyheter, fakta og påstander.",
+    "group": "Kultur, sport & samfunn",
+    "links": [
+      { "name": "Faktisk.no", "url": "https://www.faktisk.no", "desc": "Norsk faktasjekkportal fra flere medier." },
+      { "name": "Snopes", "url": "https://www.snopes.com", "desc": "Veteranportal for faktasjekk og urban legends." },
+      { "name": "FactCheck.org", "url": "https://www.factcheck.org", "desc": "Amerikansk faktasjekk av politikk og media." },
+      { "name": "PolitiFact", "url": "https://www.politifact.com", "desc": "Politisk faktasjekk med Truth-O-Meter." },
+      { "name": "Full Fact", "url": "https://fullfact.org", "desc": "Britisk faktasjekkorganisasjon." },
+      { "name": "Media Bias/Fact Check", "url": "https://mediabiasfactcheck.com", "desc": "Vurdering av mediers politiske bias og faktualitet." }
+    ]
+  }
+]

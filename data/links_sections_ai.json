@@ -1,0 +1,170 @@
+[
+  {
+    "title": "Chat & assistenter 💬",
+    "desc": "AI-assistenter for tekst, samtaler og problemløsning.",
+    "group": "AI-assistenter & samtale",
+    "links": [
+      { "name": "ChatGPT", "url": "https://chat.openai.com", "desc": "AI-assistent fra OpenAI for tekst, koding og ideer." },
+      { "name": "Claude", "url": "https://claude.ai", "desc": "Språkmodell fra Anthropic med høy kontekstforståelse." },
+      { "name": "Gemini", "url": "https://gemini.google.com", "desc": "Googles AI-assistent integrert med søk og Workspace." },
+      { "name": "Perplexity AI", "url": "https://www.perplexity.ai", "desc": "AI-søkemotor som kombinerer svar og kilder i sanntid." },
+      { "name": "Microsoft Copilot", "url": "https://copilot.microsoft.com", "desc": "Microsofts AI-assistent integrert med Windows og Office." },
+      { "name": "Pi", "url": "https://pi.ai", "desc": "Personlig AI med fokus på empati og naturlig samtale." },
+      { "name": "HuggingChat", "url": "https://huggingface.co/chat", "desc": "Open-source chatbot fra Hugging Face." }
+    ]
+  },
+  {
+    "title": "AI-bilder 🎨",
+    "desc": "Verktøy for å generere og redigere bilder med kunstig intelligens.",
+    "group": "Kreativitet & media",
+    "links": [
+      { "name": "Midjourney", "url": "https://www.midjourney.com", "desc": "AI-plattform for kunstneriske og realistiske bilder." },
+      { "name": "Leonardo AI", "url": "https://leonardo.ai", "desc": "Kreativt AI-studio for bildegenerering og design." },
+      { "name": "Bing Image Creator", "url": "https://www.bing.com/create", "desc": "Gratis DALL·E-basert bildegenerator fra Microsoft." },
+      { "name": "Playground AI", "url": "https://playground.com", "desc": "AI-verktøy for bildeeksperimentering og kunstnerisk lek." },
+      { "name": "DALL·E", "url": "https://labs.openai.com", "desc": "OpenAIs originale bildegenerator med høy kvalitet." },
+      { "name": "Stable Diffusion", "url": "https://stability.ai", "desc": "Open-source bildegenerering med full kontroll." },
+      { "name": "Adobe Firefly", "url": "https://firefly.adobe.com", "desc": "Adobes AI for kreativt innhold og bilderedigering." },
+      { "name": "Ideogram", "url": "https://ideogram.ai", "desc": "AI som er spesielt god på tekst i bilder." }
+    ]
+  },
+  {
+    "title": "AI-video 🎬",
+    "desc": "Lag og rediger videoer automatisk med AI.",
+    "group": "Kreativitet & media",
+    "links": [
+      { "name": "Runway ML", "url": "https://runwayml.com", "desc": "Kraftig AI-verktøy for videoredigering og generering." },
+      { "name": "Pika Labs", "url": "https://pika.art", "desc": "Generer korte videoer direkte fra tekst." },
+      { "name": "Synthesia", "url": "https://www.synthesia.io", "desc": "Lag profesjonelle videoer med AI-avatarer." },
+      { "name": "Luma AI", "url": "https://lumalabs.ai", "desc": "3D-video og Dream Machine for kreativ videogenerering." },
+      { "name": "HeyGen", "url": "https://www.heygen.com", "desc": "AI-avatarer og videooversettelse med leppesync." },
+      { "name": "Descript", "url": "https://www.descript.com", "desc": "Videoredigering med AI-transkripsjon og tekstredigering." }
+    ]
+  },
+  {
+    "title": "Tekst-til-tale 🗣️",
+    "desc": "AI-stemmer som leser tekst høyt med naturlig tonefall.",
+    "group": "Kreativitet & media",
+    "links": [
+      { "name": "ElevenLabs", "url": "https://elevenlabs.io", "desc": "Ledende plattform for realistisk stemmegenerering." },
+      { "name": "Play.ht", "url": "https://play.ht", "desc": "AI-tjeneste for stemmer, dubbing og podkast-innhold." }
+    ]
+  },
+  {
+    "title": "Musikk & lyd 🎵",
+    "desc": "Lag musikk og lydeffekter med AI.",
+    "group": "Kreativitet & media",
+    "links": [
+      { "name": "Suno", "url": "https://suno.ai", "desc": "Generer komplette sanger fra tekst med AI." },
+      { "name": "Udio", "url": "https://www.udio.com", "desc": "AI-verktøy for musikkproduksjon og remixing." },
+      { "name": "Soundraw", "url": "https://soundraw.io", "desc": "Tilpass og generer AI-musikk for dine prosjekter." },
+      { "name": "Boomy", "url": "https://boomy.com", "desc": "Lag og publiser sanger på strømmetjenester med AI." },
+      { "name": "Mubert", "url": "https://mubert.com", "desc": "AI-musikk for innholdsskapere og livestreaming." }
+    ]
+  },
+  {
+    "title": "3D & AR 🎮",
+    "desc": "AI-verktøy for 3D-modellering og augmented reality.",
+    "group": "Kreativitet & media",
+    "links": [
+      { "name": "Spline AI", "url": "https://spline.design", "desc": "3D-design med AI-assistanse i nettleseren." },
+      { "name": "Meshy", "url": "https://meshy.ai", "desc": "Transformer tekst og bilder til 3D-modeller." },
+      { "name": "Luma AI", "url": "https://lumalabs.ai", "desc": "3D-scanning med telefonen og NeRF-teknologi." }
+    ]
+  },
+  {
+    "title": "Design & UI/UX 🎨",
+    "desc": "AI-verktøy for design, prototyping og brukeropplevelse.",
+    "group": "Kreativitet & media",
+    "links": [
+      { "name": "Figma AI", "url": "https://figma.com", "desc": "AI-funksjoner integrert i Figma for design." },
+      { "name": "Uizard", "url": "https://uizard.io", "desc": "Transformer skisser til UI-design med AI." },
+      { "name": "Galileo AI", "url": "https://usegalileo.ai", "desc": "Generer UI-design fra tekstbeskrivelser." },
+      { "name": "Relume", "url": "https://relume.io", "desc": "AI for webdesign, wireframes og sitemap." }
+    ]
+  },
+  {
+    "title": "Produktivitet & skriving ✍️",
+    "desc": "AI-assistenter for tekstproduksjon og produktivitet.",
+    "group": "Produktivitet & utvikling",
+    "links": [
+      { "name": "Notion AI", "url": "https://notion.so/product/ai", "desc": "AI integrert i Notion for notater og dokumenter." },
+      { "name": "Grammarly", "url": "https://grammarly.com", "desc": "AI for grammatikk, stavekontroll og skrivehjelp." },
+      { "name": "Jasper", "url": "https://jasper.ai", "desc": "AI for markedsføringstekster og innholdsproduksjon." },
+      { "name": "Copy.ai", "url": "https://copy.ai", "desc": "Innholdsgenerering for bedrifter og markedsføring." },
+      { "name": "Writesonic", "url": "https://writesonic.com", "desc": "AI-skriveverktøy for artikler, blogg og sosiale medier." }
+    ]
+  },
+  {
+    "title": "Koding & utvikling 💻",
+    "desc": "AI-verktøy som hjelper deg med programmering og webutvikling.",
+    "group": "Produktivitet & utvikling",
+    "links": [
+      { "name": "GitHub Copilot", "url": "https://github.com/features/copilot", "desc": "AI-kodeassistent som foreslår kode direkte i editoren." },
+      { "name": "Cursor", "url": "https://cursor.sh", "desc": "AI-basert kodeeditor bygget for produktivitet." },
+      { "name": "Replit AI", "url": "https://replit.com", "desc": "Koding med AI-hjelp direkte i nettleseren." },
+      { "name": "v0", "url": "https://v0.dev", "desc": "Generer React-komponenter fra tekstbeskrivelser." },
+      { "name": "Bolt.new", "url": "https://bolt.new", "desc": "Bygg fullstack-apper med AI i nettleseren." }
+    ]
+  },
+  {
+    "title": "Presentasjoner & slides 📊",
+    "desc": "Lag profesjonelle presentasjoner raskt med AI.",
+    "group": "Produktivitet & utvikling",
+    "links": [
+      { "name": "Gamma", "url": "https://gamma.app", "desc": "Lag presentasjoner, dokumenter og nettsider med AI." },
+      { "name": "Beautiful.ai", "url": "https://beautiful.ai", "desc": "Smart presentasjonsdesign som tilpasser seg automatisk." },
+      { "name": "Tome", "url": "https://tome.app", "desc": "AI-drevne presentasjoner og historiefortelling." },
+      { "name": "Decktopus", "url": "https://decktopus.com", "desc": "Rask presentasjonsgenerering med AI-maler." }
+    ]
+  },
+  {
+    "title": "SEO & markedsføring 📈",
+    "desc": "AI-verktøy for søkemotoroptimalisering og digital markedsføring.",
+    "group": "Produktivitet & utvikling",
+    "links": [
+      { "name": "Surfer SEO", "url": "https://surferseo.com", "desc": "AI for søkemotoroptimalisering og innholdsanalyse." },
+      { "name": "Semrush AI", "url": "https://semrush.com", "desc": "Marketing AI-verktøy for SEO og konkurrentanalyse." },
+      { "name": "MarketMuse", "url": "https://marketmuse.com", "desc": "Innholdsstrategi og optimalisering med AI." }
+    ]
+  },
+  {
+    "title": "Møter & transkribering 🎙️",
+    "desc": "AI-verktøy for møtenotat, transkripsjon og opptak.",
+    "group": "Produktivitet & utvikling",
+    "links": [
+      { "name": "Otter.ai", "url": "https://otter.ai", "desc": "Møtenotat og transkripsjon i sanntid." },
+      { "name": "Fireflies.ai", "url": "https://fireflies.ai", "desc": "AI-møteassistent som tar notater automatisk." },
+      { "name": "Fathom", "url": "https://fathom.video", "desc": "Gratis AI-møtenotat for Zoom og Teams." }
+    ]
+  },
+  {
+    "title": "Forskning & læring 📚",
+    "desc": "AI-verktøy for akademisk forskning og kunnskapstilegnelse.",
+    "group": "Forskning, læring & språk",
+    "links": [
+      { "name": "Consensus", "url": "https://consensus.app", "desc": "AI-søk i vitenskapelige forskningsartikler." },
+      { "name": "Elicit", "url": "https://elicit.com", "desc": "AI-assistent for forskere og litteraturgjennomgang." },
+      { "name": "Explain Paper", "url": "https://explainpaper.com", "desc": "Få forklart komplekse vitenskapelige artikler." },
+      { "name": "Scholarcy", "url": "https://scholarcy.com", "desc": "Oppsummer og analyser forskningsartikler automatisk." }
+    ]
+  },
+  {
+    "title": "Oversettelse & språk 🌍",
+    "desc": "AI-drevne oversettelsesverktøy med høy kvalitet.",
+    "group": "Forskning, læring & språk",
+    "links": [
+      { "name": "DeepL", "url": "https://deepl.com", "desc": "Høykvalitets AI-oversettelse med naturlig språk." },
+      { "name": "Reverso", "url": "https://reverso.net", "desc": "Oversettelse med kontekst og eksempler." }
+    ]
+  },
+  {
+    "title": "Prompts & inspirasjon 💡",
+    "desc": "Samlinger av AI-prompter og kreative idéer.",
+    "group": "Forskning, læring & språk",
+    "links": [
+      { "name": "PromptHero", "url": "https://prompthero.com", "desc": "Søkbar database med AI-prompter for bilder og tekst." },
+      { "name": "Lexica", "url": "https://lexica.art", "desc": "Galleri og søk for AI-genererte bilder og prompts." }
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "name": "Cre8Web OSINT Hub",
+  "short_name": "OSINT Hub",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#f6f7f9",
+  "theme_color": "#ffffff",
+  "icons": []
+}

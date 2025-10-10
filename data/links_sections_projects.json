@@ -1,0 +1,335 @@
+[
+  {
+    "title": "Cre8Web-prosjekter 🌐",
+    "desc": "Offisielle prosjekter utviklet under Cre8Web-plattformen, med fokus på webdesign, AI og datadrevne løsninger.",
+    "group": "Cre8Web-prosjekter",
+    "links": [
+      { "name": "Cre8Web OSINT Hub", "url": "https://cre8web-osint-hub.netlify.app", "desc": "Dynamisk lenkeportal i Cre8Web-stil for OSINT og AI-verktøy." },
+      { "name": "Butikkoversikt.no", "url": "https://butikkoversikt.no", "desc": "Norsk oversikt over nettbutikker og produktkategorier." },
+      { "name": "DVD-arkivet", "url": "https://cre8web-dvd-arkiv.netlify.app", "desc": "Interaktiv samling av DVD-filmer med søk, filtrering og detaljer." },
+      { "name": "Selfies & Transformations", "url": "https://cre8web-selfies.netlify.app", "desc": "AI-galleri med kreative portretter, kategorisert i JSON-struktur." },
+      { "name": "Cre8Web Prompt-bibliotek", "url": "https://cre8web-promts.netlify.app", "desc": "Samling av AI-prompter med kategorier og søk." },
+      { "name": "AI-verktøyoversikt", "url": "https://ai-verktoy.netlify.app", "desc": "Dynamisk oversikt over AI-verktøy, funksjoner og sammenligning." }
+    ]
+  },
+  {
+    "title": "Spillprosjekter 🎮",
+    "desc": "Interaktive spill og spillrelaterte prosjekter.",
+    "group": "Cre8Web-prosjekter",
+    "links": [
+      { "name": "Pixel Raiders", "url": "#", "desc": "Phaser-basert retrospill utviklet som Cre8Web-prosjekt (under arbeid)." },
+      { "name": "Snake Game", "url": "#", "desc": "Klassisk Snake-spill laget i JavaScript." },
+      { "name": "Memory Card Game", "url": "#", "desc": "Huskespill med kortparinger." },
+      { "name": "Tetris Clone", "url": "#", "desc": "Moderne implementasjon av det klassiske pussespillet." }
+    ]
+  },
+  {
+    "title": "Business & verktøy 💼",
+    "desc": "Applikasjoner for produktivitet og forretningsløsninger.",
+    "group": "Cre8Web-prosjekter",
+    "links": [
+      { "name": "Takstmann-appen", "url": "#", "desc": "FastAPI-basert løsning for generering av eierskifterapporter." },
+      { "name": "Faktura Generator", "url": "#", "desc": "Lag profesjonelle fakturaer raskt." },
+      { "name": "Timetracker", "url": "#", "desc": "Enkel tidregistrering for prosjekter." },
+      { "name": "Expense Manager", "url": "#", "desc": "Oversikt over utgifter og budsjett." }
+    ]
+  },
+  {
+    "title": "Utviklingsverktøy 💻",
+    "desc": "Tjenester og miljøer for web-, kode- og app-utvikling.",
+    "group": "Utvikling & teknologi",
+    "links": [
+      { "name": "GitHub", "url": "https://github.com", "desc": "Plattform for versjonskontroll og samarbeid på kodeprosjekter." },
+      { "name": "Netlify", "url": "https://www.netlify.com", "desc": "Hosting- og CI/CD-plattform for moderne nettsider." },
+      { "name": "StackBlitz", "url": "https://stackblitz.com", "desc": "Nettbasert IDE for frontend- og Node-prosjekter." },
+      { "name": "Replit", "url": "https://replit.com", "desc": "Kjør, test og del kode direkte i nettleseren." },
+      { "name": "Vercel", "url": "https://vercel.com", "desc": "Distribusjonsplattform for Next.js- og statiske prosjekter." },
+      { "name": "CodeSandbox", "url": "https://codesandbox.io", "desc": "Online code editor for webapps." },
+      { "name": "Glitch", "url": "https://glitch.com", "desc": "Bygg og del webapps i nettleseren." },
+      { "name": "Railway", "url": "https://railway.app", "desc": "Deploy backend og databaser enkelt." },
+      { "name": "Render", "url": "https://render.com", "desc": "Cloud hosting for apps og statiske sider." },
+      { "name": "Fly.io", "url": "https://fly.io", "desc": "Deploy apps globalt på edge." }
+    ]
+  },
+  {
+    "title": "Git & versjonskontroll 🔀",
+    "desc": "Plattformer for kodelagring og samarbeid.",
+    "group": "Utvikling & teknologi",
+    "links": [
+      { "name": "GitHub", "url": "https://github.com", "desc": "Verdens største platform for open source og private repositories." },
+      { "name": "GitLab", "url": "https://gitlab.com", "desc": "DevOps-plattform med CI/CD og versjonskontroll." },
+      { "name": "Bitbucket", "url": "https://bitbucket.org", "desc": "Git-løsning fra Atlassian integrert med Jira." },
+      { "name": "Gitea", "url": "https://gitea.io", "desc": "Self-hosted, lett Git-service." },
+      { "name": "SourceForge", "url": "https://sourceforge.net", "desc": "Klassisk platform for open source-prosjekter." }
+    ]
+  },
+  {
+    "title": "Admin & dashboards 📊",
+    "desc": "Interne og visuelle styringsverktøy for prosjekter og dataanalyse.",
+    "group": "Business & drift",
+    "links": [
+      { "name": "Google Sheets", "url": "https://sheets.google.com", "desc": "Regneark for databehandling, integrert med Cre8Web-prosjekter." },
+      { "name": "Airtable", "url": "https://airtable.com", "desc": "Databaseløsning med visuelle grensesnitt og API-støtte." },
+      { "name": "n8n", "url": "https://n8n.io", "desc": "Automatisering av arbeidsflyt og data mellom ulike tjenester." },
+      { "name": "Metabase", "url": "https://www.metabase.com", "desc": "Dashboard-løsning for visualisering av data og KPI-er." },
+      { "name": "Retool", "url": "https://retool.com", "desc": "Bygg interne verktøy raskt med low-code." },
+      { "name": "Appsmith", "url": "https://www.appsmith.com", "desc": "Open source low-code for admin-panels." },
+      { "name": "Budibase", "url": "https://budibase.com", "desc": "Bygg business apps med lav kode." }
+    ]
+  },
+  {
+    "title": "API & backends 🔌",
+    "desc": "Backend-as-a-Service og API-verktøy.",
+    "group": "Utvikling & teknologi",
+    "links": [
+      { "name": "Supabase", "url": "https://supabase.com", "desc": "Open source Firebase-alternativ med PostgreSQL." },
+      { "name": "Firebase", "url": "https://firebase.google.com", "desc": "Googles backend-plattform med database og auth." },
+      { "name": "Appwrite", "url": "https://appwrite.io", "desc": "Self-hosted backend server for webapps." },
+      { "name": "PocketBase", "url": "https://pocketbase.io", "desc": "Lett open source backend i én fil." },
+      { "name": "Hasura", "url": "https://hasura.io", "desc": "Instant GraphQL API på databaser." },
+      { "name": "Strapi", "url": "https://strapi.io", "desc": "Headless CMS med REST og GraphQL." },
+      { "name": "Directus", "url": "https://directus.io", "desc": "Open source data platform og CMS." }
+    ]
+  },
+  {
+    "title": "Databaser 🗄️",
+    "desc": "Database-hosting og administrasjon.",
+    "group": "Utvikling & teknologi",
+    "links": [
+      { "name": "MongoDB Atlas", "url": "https://www.mongodb.com/cloud/atlas", "desc": "Cloud-hosted NoSQL database." },
+      { "name": "PostgreSQL on Railway", "url": "https://railway.app", "desc": "Enkel PostgreSQL-hosting." },
+      { "name": "PlanetScale", "url": "https://planetscale.com", "desc": "MySQL-kompatibel serverless database." },
+      { "name": "CockroachDB", "url": "https://www.cockroachlabs.com", "desc": "Distribuert SQL database." },
+      { "name": "Redis Cloud", "url": "https://redis.com/cloud", "desc": "Managed Redis for caching og data." },
+      { "name": "Neon", "url": "https://neon.tech", "desc": "Serverless Postgres med branching." }
+    ]
+  },
+  {
+    "title": "Design & inspirasjon 🎨",
+    "desc": "Verktøy for design, ikoner, farger og brukeropplevelse.",
+    "group": "Design & kommunikasjon",
+    "links": [
+      { "name": "Figma", "url": "https://figma.com", "desc": "Skybasert verktøy for UI/UX-design og prototyping." },
+      { "name": "Flaticon", "url": "https://flaticon.com", "desc": "Samling av gratis ikoner og vektorgrafikk." },
+      { "name": "Coolors", "url": "https://coolors.co", "desc": "Lag og eksporter fargepaletter for webprosjekter." },
+      { "name": "Google Fonts", "url": "https://fonts.google.com", "desc": "Gratis skrifttyper til bruk på nett og i designprosjekter." },
+      { "name": "Dribbble", "url": "https://dribbble.com", "desc": "Community for designere med inspirasjon." },
+      { "name": "Behance", "url": "https://www.behance.net", "desc": "Adobe's designportfolio-plattform." },
+      { "name": "Awwwards", "url": "https://www.awwwards.com", "desc": "De beste webdesignene fra hele verden." },
+      { "name": "CSS Design Awards", "url": "https://cssdesignawards.com", "desc": "Prisvinnende webdesign og UI." },
+      { "name": "SiteInspire", "url": "https://www.siteinspire.com", "desc": "Samling av inspirerende nettsider." }
+    ]
+  },
+  {
+    "title": "Ikoner & grafikk 🖼️",
+    "desc": "Ressurser for ikoner, illustrasjoner og grafikkelementer.",
+    "group": "Design & kommunikasjon",
+    "links": [
+      { "name": "Font Awesome", "url": "https://fontawesome.com", "desc": "Populært ikonbibliotek for web." },
+      { "name": "Heroicons", "url": "https://heroicons.com", "desc": "Vakre håndlagde SVG-ikoner." },
+      { "name": "Lucide", "url": "https://lucide.dev", "desc": "Fork av Feather Icons med flere ikoner." },
+      { "name": "Ionicons", "url": "https://ionic.io/ionicons", "desc": "Premium designede ikoner for apps." },
+      { "name": "unDraw", "url": "https://undraw.co", "desc": "Gratis SVG-illustrasjoner." },
+      { "name": "Illustrations", "url": "https://illlustrations.co", "desc": "Open source illustrasjonskit." },
+      { "name": "Unsplash", "url": "https://unsplash.com", "desc": "Gratis høykvalitetsbilder." },
+      { "name": "Pexels", "url": "https://www.pexels.com", "desc": "Gratis stock photos og videoer." }
+    ]
+  },
+  {
+    "title": "CSS & animasjon 🎭",
+    "desc": "Biblioteker og verktøy for styling og animasjoner.",
+    "group": "Utvikling & teknologi",
+    "links": [
+      { "name": "Tailwind CSS", "url": "https://tailwindcss.com", "desc": "Utility-first CSS framework." },
+      { "name": "Bootstrap", "url": "https://getbootstrap.com", "desc": "Populært CSS framework med komponenter." },
+      { "name": "Animate.css", "url": "https://animate.style", "desc": "Ready-to-use CSS-animasjoner." },
+      { "name": "GSAP", "url": "https://greensock.com/gsap", "desc": "Kraftig JavaScript-animasjonsbibliotek." },
+      { "name": "Framer Motion", "url": "https://www.framer.com/motion", "desc": "React animation library." },
+      { "name": "Three.js", "url": "https://threejs.org", "desc": "3D-grafikk i nettleseren." },
+      { "name": "Sass", "url": "https://sass-lang.com", "desc": "CSS med superpowers (preprocessor)." }
+    ]
+  },
+  {
+    "title": "Testing & kvalitet 🧪",
+    "desc": "Verktøy for testing, debugging og kvalitetssikring.",
+    "group": "Utvikling & teknologi",
+    "links": [
+      { "name": "Jest", "url": "https://jestjs.io", "desc": "JavaScript testing framework." },
+      { "name": "Cypress", "url": "https://www.cypress.io", "desc": "End-to-end testing for webapps." },
+      { "name": "Playwright", "url": "https://playwright.dev", "desc": "Browser automation fra Microsoft." },
+      { "name": "Postman", "url": "https://www.postman.com", "desc": "API testing og dokumentasjon." },
+      { "name": "Insomnia", "url": "https://insomnia.rest", "desc": "REST og GraphQL client." },
+      { "name": "Lighthouse", "url": "https://developers.google.com/web/tools/lighthouse", "desc": "Web performance testing fra Google." },
+      { "name": "GTmetrix", "url": "https://gtmetrix.com", "desc": "Analyser nettsidehastighet." }
+    ]
+  },
+  {
+    "title": "Dokumentasjon 📖",
+    "desc": "Verktøy for å lage dokumentasjon og wikis.",
+    "group": "Design & kommunikasjon",
+    "links": [
+      { "name": "GitBook", "url": "https://www.gitbook.com", "desc": "Moderne dokumentasjonsplattform." },
+      { "name": "Docusaurus", "url": "https://docusaurus.io", "desc": "Static site generator for dokumentasjon." },
+      { "name": "Read the Docs", "url": "https://readthedocs.org", "desc": "Host dokumentasjon fra Git." },
+      { "name": "Notion", "url": "https://www.notion.so", "desc": "All-in-one workspace for notater og docs." },
+      { "name": "Confluence", "url": "https://www.atlassian.com/software/confluence", "desc": "Team collaboration og wikis fra Atlassian." },
+      { "name": "MkDocs", "url": "https://www.mkdocs.org", "desc": "Static site generator med Markdown." }
+    ]
+  },
+  {
+    "title": "Analytics & monitoring 📈",
+    "desc": "Spor besøkende, ytelse og feil i produksjon.",
+    "group": "Business & drift",
+    "links": [
+      { "name": "Google Analytics", "url": "https://analytics.google.com", "desc": "Gratis webanalyse fra Google." },
+      { "name": "Plausible", "url": "https://plausible.io", "desc": "Personvern-vennlig web analytics." },
+      { "name": "Umami", "url": "https://umami.is", "desc": "Open source, self-hosted analytics." },
+      { "name": "Mixpanel", "url": "https://mixpanel.com", "desc": "Product analytics for brukeradferd." },
+      { "name": "Sentry", "url": "https://sentry.io", "desc": "Error tracking og performance monitoring." },
+      { "name": "LogRocket", "url": "https://logrocket.com", "desc": "Session replay og error tracking." },
+      { "name": "Hotjar", "url": "https://www.hotjar.com", "desc": "Heatmaps og brukeropplevelsesanalyse." },
+      { "name": "Fathom Analytics", "url": "https://usefathom.com", "desc": "Enkel personvernsfokusert analytics." }
+    ]
+  },
+  {
+    "title": "DevOps & CI/CD 🚀",
+    "desc": "Automatisering, containers og deployment pipelines.",
+    "group": "Utvikling & teknologi",
+    "links": [
+      { "name": "Docker", "url": "https://www.docker.com", "desc": "Containerisering av applikasjoner." },
+      { "name": "GitHub Actions", "url": "https://github.com/features/actions", "desc": "CI/CD innebygd i GitHub." },
+      { "name": "CircleCI", "url": "https://circleci.com", "desc": "Continuous integration og deployment." },
+      { "name": "Travis CI", "url": "https://travis-ci.org", "desc": "CI-service for open source-prosjekter." },
+      { "name": "Jenkins", "url": "https://www.jenkins.io", "desc": "Open source automation server." },
+      { "name": "Kubernetes", "url": "https://kubernetes.io", "desc": "Container orchestration platform." },
+      { "name": "Terraform", "url": "https://www.terraform.io", "desc": "Infrastructure as code." },
+      { "name": "Ansible", "url": "https://www.ansible.com", "desc": "IT automation og configuration management." }
+    ]
+  },
+  {
+    "title": "CDN & Performance ⚡",
+    "desc": "Content delivery og hastighetsoptimalisering.",
+    "group": "Utvikling & teknologi",
+    "links": [
+      { "name": "Cloudflare", "url": "https://www.cloudflare.com", "desc": "CDN, DNS og sikkerhetstjenester." },
+      { "name": "Fastly", "url": "https://www.fastly.com", "desc": "Edge cloud platform for developers." },
+      { "name": "BunnyCDN", "url": "https://bunny.net", "desc": "Rask og rimelig CDN." },
+      { "name": "jsDelivr", "url": "https://www.jsdelivr.com", "desc": "Gratis CDN for npm og GitHub." },
+      { "name": "cdnjs", "url": "https://cdnjs.com", "desc": "Gratis open source CDN." }
+    ]
+  },
+  {
+    "title": "Domener & hosting 🌐",
+    "desc": "Kjøp domener og hosting for nettsider.",
+    "group": "Business & drift",
+    "links": [
+      { "name": "Namecheap", "url": "https://www.namecheap.com", "desc": "Rimelige domener og hosting." },
+      { "name": "Google Domains", "url": "https://domains.google", "desc": "Domeneregistrering fra Google." },
+      { "name": "Cloudflare Registrar", "url": "https://www.cloudflare.com/products/registrar", "desc": "Domener til selvkost fra Cloudflare." },
+      { "name": "DigitalOcean", "url": "https://www.digitalocean.com", "desc": "Cloud hosting for utviklere." },
+      { "name": "Linode", "url": "https://www.linode.com", "desc": "Linux cloud hosting og VPS." },
+      { "name": "Hostinger", "url": "https://www.hostinger.com", "desc": "Rimelig webhosting." }
+    ]
+  },
+  {
+    "title": "Kommunikasjon & samarbeid 💬",
+    "desc": "Team chat, møter og prosjektstyring.",
+    "group": "Design & kommunikasjon",
+    "links": [
+      { "name": "Slack", "url": "https://slack.com", "desc": "Teamkommunikasjon for bedrifter." },
+      { "name": "Discord", "url": "https://discord.com", "desc": "Chat for communities og team." },
+      { "name": "Microsoft Teams", "url": "https://www.microsoft.com/microsoft-teams", "desc": "Samarbeid integrert med Office 365." },
+      { "name": "Zoom", "url": "https://zoom.us", "desc": "Videomøter og webinarer." },
+      { "name": "Notion", "url": "https://www.notion.so", "desc": "Alt-i-ett workspace for team." },
+      { "name": "Trello", "url": "https://trello.com", "desc": "Visuell prosjektstyring med boards." },
+      { "name": "Asana", "url": "https://asana.com", "desc": "Prosjekt- og oppgaveadministrasjon." },
+      { "name": "Linear", "url": "https://linear.app", "desc": "Issue tracking for moderne teams." },
+      { "name": "ClickUp", "url": "https://clickup.com", "desc": "All-in-one produktivitetsplattform." },
+      { "name": "Monday.com", "url": "https://monday.com", "desc": "Work OS for teams." }
+    ]
+  },
+  {
+    "title": "Læring & ressurser 📚",
+    "desc": "Plattformer for å lære programmering og webutvikling.",
+    "group": "Design & kommunikasjon",
+    "links": [
+      { "name": "freeCodeCamp", "url": "https://www.freecodecamp.org", "desc": "Gratis kodeopplæring med sertifiseringer." },
+      { "name": "MDN Web Docs", "url": "https://developer.mozilla.org", "desc": "Omfattende webdokumentasjon fra Mozilla." },
+      { "name": "W3Schools", "url": "https://www.w3schools.com", "desc": "Tutorials og referanser for webutvikling." },
+      { "name": "CSS-Tricks", "url": "https://css-tricks.com", "desc": "Artikler og tips om CSS og frontend." },
+      { "name": "Dev.to", "url": "https://dev.to", "desc": "Community for utviklere." },
+      { "name": "Stack Overflow", "url": "https://stackoverflow.com", "desc": "Q&A for programmerere." },
+      { "name": "Codecademy", "url": "https://www.codecademy.com", "desc": "Interaktive kodekurs." },
+      { "name": "The Odin Project", "url": "https://www.theodinproject.com", "desc": "Gratis full-stack curriculum." },
+      { "name": "Frontend Mentor", "url": "https://www.frontendmentor.io", "desc": "Real-world frontend challenges." },
+      { "name": "JavaScript.info", "url": "https://javascript.info", "desc": "Moderne JavaScript tutorial." }
+    ]
+  },
+  {
+    "title": "Communities & nettverk 👥",
+    "desc": "Møt andre utviklere og del kunnskap.",
+    "group": "Design & kommunikasjon",
+    "links": [
+      { "name": "GitHub Discussions", "url": "https://github.com", "desc": "Community-diskusjoner på GitHub." },
+      { "name": "Reddit r/webdev", "url": "https://www.reddit.com/r/webdev", "desc": "Subreddit for webutviklere." },
+      { "name": "Hashnode", "url": "https://hashnode.com", "desc": "Bloggplattform for utviklere." },
+      { "name": "Indie Hackers", "url": "https://www.indiehackers.com", "desc": "Community for selvstendige gründere." },
+      { "name": "Product Hunt", "url": "https://www.producthunt.com", "desc": "Lansering og oppdagelse av nye produkter." },
+      { "name": "Hacker News", "url": "https://news.ycombinator.com", "desc": "Tech news og diskusjoner fra YC." }
+    ]
+  },
+  {
+    "title": "Produktivitet & notater 📝",
+    "desc": "Verktøy for notater, planlegging og produktivitet.",
+    "group": "Business & drift",
+    "links": [
+      { "name": "Notion", "url": "https://www.notion.so", "desc": "All-in-one workspace for notater og databaser." },
+      { "name": "Obsidian", "url": "https://obsidian.md", "desc": "Lokal-first knowledge base med markdown." },
+      { "name": "Logseq", "url": "https://logseq.com", "desc": "Privacy-first, open source knowledge management." },
+      { "name": "Roam Research", "url": "https://roamresearch.com", "desc": "Note-taking med bi-directional links." },
+      { "name": "Evernote", "url": "https://evernote.com", "desc": "Klassisk note-taking app." },
+      { "name": "Bear", "url": "https://bear.app", "desc": "Elegant skriveapp for Mac/iOS." },
+      { "name": "Todoist", "url": "https://todoist.com", "desc": "Oppgaveliste og prosjektstyring." }
+    ]
+  },
+  {
+    "title": "Sikkerhet & autentisering 🔐",
+    "desc": "Tjenester for innlogging, autentisering og sikkerhet.",
+    "group": "Utvikling & teknologi",
+    "links": [
+      { "name": "Auth0", "url": "https://auth0.com", "desc": "Autentisering og autorisasjon som tjeneste." },
+      { "name": "Clerk", "url": "https://clerk.com", "desc": "Moderne user management for apps." },
+      { "name": "NextAuth.js", "url": "https://next-auth.js.org", "desc": "Autentisering for Next.js apps." },
+      { "name": "Supabase Auth", "url": "https://supabase.com/auth", "desc": "Open source auth fra Supabase." },
+      { "name": "1Password", "url": "https://1password.com", "desc": "Passordmanager for teams." },
+      { "name": "Bitwarden", "url": "https://bitwarden.com", "desc": "Open source passordmanager." },
+      { "name": "Let's Encrypt", "url": "https://letsencrypt.org", "desc": "Gratis SSL-sertifikater." }
+    ]
+  },
+  {
+    "title": "Email & meldinger 📧",
+    "desc": "Tjenester for å sende e-post fra applikasjoner.",
+    "group": "Business & drift",
+    "links": [
+      { "name": "SendGrid", "url": "https://sendgrid.com", "desc": "E-postlevering fra Twilio." },
+      { "name": "Mailgun", "url": "https://www.mailgun.com", "desc": "E-post API for utviklere." },
+      { "name": "Resend", "url": "https://resend.com", "desc": "Modern e-post API for utviklere." },
+      { "name": "Postmark", "url": "https://postmarkapp.com", "desc": "Transaksjonell e-post-levering." },
+      { "name": "Brevo (Sendinblue)", "url": "https://www.brevo.com", "desc": "E-postmarkedsføring og CRM." },
+      { "name": "Mailchimp", "url": "https://mailchimp.com", "desc": "E-postmarkedsføring og automatisering." }
+    ]
+  },
+  {
+    "title": "Betalingsløsninger 💳",
+    "desc": "Integrer betalinger i applikasjoner.",
+    "group": "Business & drift",
+    "links": [
+      { "name": "Stripe", "url": "https://stripe.com", "desc": "Ledende betalingsplatform for internett." },
+      { "name": "Vipps", "url": "https://vipps.no", "desc": "Norsk mobilbetaling (Vipps MobilePay)." },
+      { "name": "PayPal", "url": "https://www.paypal.com", "desc": "Global betalingsløsning." },
+      { "name": "Klarna", "url": "https://www.klarna.com", "desc": "Betal senere og delbetalingsløsninger." },
+      { "name": "Paddle", "url": "https://www.paddle.com", "desc": "Betalingsplatform for SaaS." },
+      { "name": "LemonSqueezy", "url": "https://www.lemonsqueezy.com", "desc": "Merchant of record for digital produkter." }
+    ]
+  }
+]

@@ -1,0 +1,190 @@
+[
+  {
+    "title": "Hus & bil 🚗🏡",
+    "desc": "Nyttige nettsteder for bolig, energi, kjøretøy og vedlikehold.",
+    "group": "Hverdag & hjem",
+    "links": [
+      { "name": "Finn.no", "url": "https://www.finn.no", "desc": "Kjøp og salg, bolig, jobb og tjenester." },
+      { "name": "OBOS", "url": "https://www.obos.no", "desc": "Boligforvaltning og medlemsfordeler." },
+      { "name": "Elvia", "url": "https://www.elvia.no", "desc": "Strømnett og energitjenester i Norge." },
+      { "name": "Tibber", "url": "https://www.tibber.com/no", "desc": "Smart strømleverandør med app og forbruksdata." },
+      { "name": "Elkjøp", "url": "https://www.elkjop.no", "desc": "Elektronikk, hvitevarer og datautstyr." },
+      { "name": "Byggmax", "url": "https://www.byggmax.no", "desc": "Byggevarer og verktøy for hjem og hage." },
+      { "name": "Obs Bygg", "url": "https://www.obsbygg.no", "desc": "Byggvarer, oppussing og inspirasjon." },
+      { "name": "Vegvesen kjøretøy", "url": "https://www.vegvesen.no/kjoretoy", "desc": "Søk etter kjøretøy og eieropplysninger." },
+      { "name": "NAF", "url": "https://www.naf.no", "desc": "Bilassistanse, tester og trafikkinformasjon." },
+      { "name": "Autodoc", "url": "https://www.autodoc.no", "desc": "Bildeler og tilbehør." }
+    ]
+  },
+  {
+    "title": "Økonomi & deling 💰",
+    "desc": "Verktøy og tjenester for personlig økonomi, lagring og betaling.",
+    "group": "Hverdag & hjem",
+    "links": [
+      { "name": "Vipps", "url": "https://www.vipps.no", "desc": "Betaling, overføringer og regningsbetaling." },
+      { "name": "Klarna", "url": "https://www.klarna.com/no", "desc": "Handle- og betalingsløsninger." },
+      { "name": "Sbanken", "url": "https://www.sbanken.no", "desc": "Nettbank med sparing, lån og aksjer." },
+      { "name": "DnB", "url": "https://www.dnb.no", "desc": "Norges største finanskonsern." },
+      { "name": "Dropbox", "url": "https://www.dropbox.com", "desc": "Skybasert fil- og dokumentsynkronisering." },
+      { "name": "Google Drive", "url": "https://drive.google.com", "desc": "Gratis skylagring og filhåndtering." },
+      { "name": "OneDrive", "url": "https://onedrive.live.com", "desc": "Microsofts skylagringsløsning." },
+      { "name": "WeTransfer", "url": "https://wetransfer.com", "desc": "Del store filer raskt og gratis." },
+      { "name": "Skatteetaten", "url": "https://www.skatteetaten.no", "desc": "Selvangivelse, skatt og personopplysninger." },
+      { "name": "Altinn", "url": "https://www.altinn.no", "desc": "Digital offentlig portal for innleveringer og meldinger." }
+    ]
+  },
+  {
+    "title": "Mat & handel 🛒",
+    "desc": "Nettbutikker for dagligvarer, matlevering og handleopplevelser.",
+    "group": "Hverdag & hjem",
+    "links": [
+      { "name": "Meny.no", "url": "https://www.meny.no", "desc": "Dagligvarer levert på døra." },
+      { "name": "Oda", "url": "https://oda.com/no", "desc": "Handle dagligvarer på nett." },
+      { "name": "Rema 1000", "url": "https://www.rema.no", "desc": "Tilbud, oppskrifter og butikkoversikt." },
+      { "name": "Kolonial.no (nå Oda)", "url": "https://oda.com/no", "desc": "Nettbutikk for dagligvarer." },
+      { "name": "Too Good To Go", "url": "https://www.toogoodtogo.no", "desc": "Reduser matsvinn med overskuddsmat." },
+      { "name": "Godt.no", "url": "https://www.godt.no", "desc": "Oppskrifter, inspirasjon og matglede." }
+    ]
+  },
+  {
+    "title": "Shopping & mote 👕",
+    "desc": "Nettbutikker for klær, elektronikk og produkter.",
+    "group": "Hverdag & hjem",
+    "links": [
+      { "name": "Zalando", "url": "https://www.zalando.no", "desc": "Mote og sko til alle." },
+      { "name": "CDON", "url": "https://cdon.no", "desc": "Nettbutikk for alt fra elektronikk til klær." },
+      { "name": "Elkjøp", "url": "https://www.elkjop.no", "desc": "Elektronikk og husholdningsprodukter." },
+      { "name": "Komplett.no", "url": "https://www.komplett.no", "desc": "Norges største nettbutikk for elektronikk." },
+      { "name": "Power", "url": "https://www.power.no", "desc": "Elektronikk og hvitevarer til gode priser." },
+      { "name": "Bik Bok", "url": "https://www.bikbok.com/no", "desc": "Klær for damer og unge voksne." },
+      { "name": "H&M", "url": "https://www.hm.com/no", "desc": "Mote til rimelige priser." },
+      { "name": "XXL", "url": "https://www.xxl.no", "desc": "Sport og fritid." },
+      { "name": "Clas Ohlson", "url": "https://www.clasohlson.com/no", "desc": "Hjem, elektro og verktøy." }
+    ]
+  },
+  {
+    "title": "Reise & fritid ✈️",
+    "desc": "Planlegg ferier, helgeturer og opplevelser i inn- og utland.",
+    "group": "Reise & opplevelser",
+    "links": [
+      { "name": "Finn Reise", "url": "https://www.finn.no/reise", "desc": "Fly, hotell og reiseinspirasjon." },
+      { "name": "TripAdvisor", "url": "https://www.tripadvisor.com", "desc": "Anmeldelser og tips for reiser." },
+      { "name": "Booking.com", "url": "https://www.booking.com", "desc": "Hotell og overnatting verden over." },
+      { "name": "Airbnb", "url": "https://www.airbnb.com", "desc": "Private overnattinger og opplevelser." },
+      { "name": "Norwegian", "url": "https://www.norwegian.no", "desc": "Flybilletter og reiser." },
+      { "name": "SAS", "url": "https://www.flysas.com/no", "desc": "Flyreiser og bonusprogram." },
+      { "name": "Entur", "url": "https://www.entur.no", "desc": "Planlegg reiser med buss, tog og ferge i Norge." },
+      { "name": "Vy", "url": "https://www.vy.no", "desc": "Tog, buss og kollektivtransport i Norge." },
+      { "name": "Google Maps", "url": "https://maps.google.com", "desc": "Navigasjon, kart og reiseruter." }
+    ]
+  },
+  {
+    "title": "Helse & livsstil 🧘‍♂️",
+    "desc": "Kilder for trening, kosthold, helse og mental balanse.",
+    "group": "Livsstil & helse",
+    "links": [
+      { "name": "Helsenorge", "url": "https://www.helsenorge.no", "desc": "Offentlig helseinformasjon og tjenester." },
+      { "name": "Apotek 1", "url": "https://www.apotek1.no", "desc": "Apotekvarer og helsetips." },
+      { "name": "Boots Apotek", "url": "https://www.boots.no", "desc": "Apotekvarer og hudpleie." },
+      { "name": "Mudo Gym", "url": "https://www.mudo.no", "desc": "Trening og kampsport." },
+      { "name": "SATS", "url": "https://www.sats.no", "desc": "Treningssentre over hele Norden." },
+      { "name": "Lommelegen", "url": "https://www.lommelegen.no", "desc": "Medisinsk rådgivning og informasjon." },
+      { "name": "Mental Helse", "url": "https://www.mentalhelse.no", "desc": "Tjenester for psykisk helse og støtte." }
+    ]
+  },
+  {
+    "title": "Underholdning 🎬🎵",
+    "desc": "Strømming, medier og digitale plattformer for avslapning og moro.",
+    "group": "Livsstil & helse",
+    "links": [
+      { "name": "Netflix", "url": "https://www.netflix.com", "desc": "Strøm filmer og serier." },
+      { "name": "Disney+", "url": "https://www.disneyplus.com", "desc": "Underholdning for hele familien." },
+      { "name": "YouTube", "url": "https://www.youtube.com", "desc": "Videoer, musikk og underholdning." },
+      { "name": "Spotify", "url": "https://www.spotify.com", "desc": "Musikkstrømming og podkaster." },
+      { "name": "NRK Radio", "url": "https://radio.nrk.no", "desc": "Lytt til radio og podkast fra NRK." },
+      { "name": "TV 2 Play", "url": "https://play.tv2.no", "desc": "Strøm serier og direktesendt TV." },
+      { "name": "HBO Max", "url": "https://www.hbomax.com", "desc": "Serier, filmer og dokumentarer." }
+    ]
+  },
+  {
+    "title": "Læring & utdanning 📚",
+    "desc": "Plattformer for kurs, e-læring og kompetanseheving.",
+    "group": "Læring & karriere",
+    "links": [
+      { "name": "Udemy", "url": "https://www.udemy.com", "desc": "Online-kurs innen teknologi, design og business." },
+      { "name": "Coursera", "url": "https://www.coursera.org", "desc": "Universitetskurs fra hele verden." },
+      { "name": "Khan Academy", "url": "https://www.khanacademy.org", "desc": "Gratis læring for alle nivåer." },
+      { "name": "Duolingo", "url": "https://www.duolingo.com", "desc": "Språklæring gjort morsomt." },
+      { "name": "LinkedIn Learning", "url": "https://www.linkedin.com/learning", "desc": "Faglige kurs og opplæring for karriereutvikling." },
+      { "name": "edX", "url": "https://www.edx.org", "desc": "Universitetskurs og sertifiseringer online." }
+    ]
+  },
+  {
+    "title": "Kommunikasjon & sosiale medier 💬",
+    "desc": "Plattformer for meldinger, deling og sosial kontakt.",
+    "group": "Læring & karriere",
+    "links": [
+      { "name": "Facebook", "url": "https://www.facebook.com", "desc": "Sosialt nettverk for deling og kommunikasjon." },
+      { "name": "Messenger", "url": "https://www.messenger.com", "desc": "Meldingsapp fra Meta." },
+      { "name": "Instagram", "url": "https://www.instagram.com", "desc": "Del bilder og videoer." },
+      { "name": "Snapchat", "url": "https://www.snapchat.com", "desc": "Kommunikasjon og deling i sanntid." },
+      { "name": "TikTok", "url": "https://www.tiktok.com", "desc": "Korte videoklipp og trender." },
+      { "name": "WhatsApp", "url": "https://www.whatsapp.com", "desc": "Meldinger og samtaler globalt." },
+      { "name": "LinkedIn", "url": "https://www.linkedin.com", "desc": "Profesjonelt nettverk for arbeidsliv." }
+    ]
+  },
+  {
+    "title": "Jobb & karriere 💼",
+    "desc": "Stillingsannonser og karriereveiledning i Norge.",
+    "group": "Læring & karriere",
+    "links": [
+      { "name": "Finn jobb", "url": "https://www.finn.no/job", "desc": "Stillinger i Norge og utlandet." },
+      { "name": "NAV", "url": "https://arbeidsplassen.nav.no", "desc": "Statlig portal for jobbsøk og rekruttering." },
+      { "name": "Jobbsafari", "url": "https://www.jobbsafari.no", "desc": "Samler stillingsannonser fra mange kilder." },
+      { "name": "LinkedIn Jobs", "url": "https://www.linkedin.com/jobs", "desc": "Internasjonale stillinger og nettverk." },
+      { "name": "Glassdoor", "url": "https://www.glassdoor.com", "desc": "Firmavurderinger og lønnsinformasjon." },
+      { "name": "Indeed", "url": "https://www.indeed.com", "desc": "Global jobbsøkplattform." }
+    ]
+  },
+  {
+    "title": "Verktøy & produktivitet 🛠️",
+    "desc": "Nettbaserte verktøy for arbeid, organisering og effektivitet.",
+    "group": "Teknisk analyse & automasjon",
+    "links": [
+      { "name": "Trello", "url": "https://trello.com", "desc": "Prosjektstyring med tavler og kort." },
+      { "name": "Asana", "url": "https://asana.com", "desc": "Oppgave- og prosjektstyring." },
+      { "name": "Notion", "url": "https://www.notion.so", "desc": "Alt-i-ett arbeidsområde." },
+      { "name": "Slack", "url": "https://slack.com", "desc": "Kommunikasjon og samarbeid i team." },
+      { "name": "Microsoft Teams", "url": "https://www.microsoft.com/teams", "desc": "Samarbeidsplattform fra Microsoft." },
+      { "name": "Google Workspace", "url": "https://workspace.google.com", "desc": "Produktivitetsverktøy fra Google." },
+      { "name": "Evernote", "url": "https://evernote.com", "desc": "Notat-taking og organisering." }
+    ]
+  },
+  {
+    "title": "Nyheter & medier 📰",
+    "desc": "Norske og internasjonale nyhetskilder og medieplattformer.",
+    "group": "Nyheter & medier",
+    "links": [
+      { "name": "NRK", "url": "https://www.nrk.no", "desc": "Norges offentlige kringkaster." },
+      { "name": "Aftenposten", "url": "https://www.aftenposten.no", "desc": "Norsk dagsavis med nyheter og analyser." },
+      { "name": "VG", "url": "https://www.vg.no", "desc": "Nyheter, sport og underholdning." },
+      { "name": "Dagbladet", "url": "https://www.dagbladet.no", "desc": "Nyheter, sport og kultur." },
+      { "name": "The Guardian", "url": "https://www.theguardian.com", "desc": "Internasjonale nyheter og analyser." },
+      { "name": "BBC News", "url": "https://www.bbc.com/news", "desc": "Global nyhetsdekning fra BBC." },
+      { "name": "Reuters", "url": "https://www.reuters.com", "desc": "Internasjonale nyheter og finans." }
+    ]
+  },
+  {
+    "title": "Teknologi & utvikling 💻",
+    "desc": "Ressurser for utviklere, IT-fagfolk og teknologientusiaster.",
+    "group": "Teknisk analyse & automasjon",
+    "links": [
+      { "name": "GitHub", "url": "https://github.com", "desc": "Kodehosting og versjonskontroll." },
+      { "name": "Stack Overflow", "url": "https://stackoverflow.com", "desc": "Spørsmål og svar for programmerere." },
+      { "name": "MDN Web Docs", "url": "https://developer.mozilla.org", "desc": "Dokumentasjon for webutvikling." },
+      { "name": "W3Schools", "url": "https://www.w3schools.com", "desc": "Lær webteknologier som HTML, CSS og JavaScript." },
+      { "name": "Hacker News", "url": "https://news.ycombinator.com", "desc": "Nyheter og diskusjoner om teknologi og oppstartsselskaper." },
+      { "name": "TechCrunch", "url": "https://techcrunch.com", "desc": "Nyheter om teknologi og startups." }
+    ]
+  }
+]

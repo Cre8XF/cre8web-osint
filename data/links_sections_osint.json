@@ -1,0 +1,230 @@
+[
+  {
+    "title": "OSINT-rammeverk 🧩",
+    "desc": "Samlinger og strukturerte ressurser for informasjonsinnhenting og analyse.",
+    "group": "Grunnleggende kilder & rammeverk",
+    "links": [
+      { "name": "OSINT Framework", "url": "https://osintframework.com", "desc": "Klassisk interaktiv oversikt over OSINT-verktøy og kategorier." },
+      { "name": "MetaOSINT", "url": "https://metaosint.github.io", "desc": "Meta-indeks som kombinerer flere OSINT-rammeverk." },
+      { "name": "Awesome OSINT", "url": "https://github.com/jivoi/awesome-osint", "desc": "GitHub-liste over hundrevis av OSINT-verktøy." },
+      { "name": "IntelTechniques", "url": "https://inteltechniques.com", "desc": "Michael Bazzells OSINT-ressurser og søkeskjema." },
+      { "name": "OSINT Dojo", "url": "https://www.osintdojo.com", "desc": "Gratis OSINT-kurs og treningsressurser." },
+      { "name": "Bellingcat's Online Investigation Toolkit", "url": "https://bit.ly/bcattools", "desc": "Kurerte verktøy fra undersøkende journalister." }
+    ]
+  },
+  {
+    "title": "Person & sosialt søk 👤",
+    "desc": "Finn digitale spor og koblinger mellom profiler, brukernavn og domener.",
+    "group": "Person-, domene- & datasøk",
+    "links": [
+      { "name": "GoFindWho", "url": "https://gofindwho.com", "desc": "Søk etter personer, e-post, domener og brukernavn." },
+      { "name": "Social Searcher", "url": "https://www.social-searcher.com", "desc": "Søk i offentlige innlegg på sosiale medier." },
+      { "name": "Namechk", "url": "https://namechk.com", "desc": "Sjekk tilgjengelighet og forekomst av brukernavn på tvers av plattformer." },
+      { "name": "BeenVerified", "url": "https://www.beenverified.com", "desc": "Person- og bakgrunnssøk (USA-basert, begrenset gratisversjon)." },
+      { "name": "Pipl", "url": "https://pipl.com", "desc": "Dypsøk etter personer basert på navn, e-post eller telefon." },
+      { "name": "TrueCaller", "url": "https://www.truecaller.com", "desc": "Identifiser telefonnummer og spam-anrop." },
+      { "name": "That's Them", "url": "https://thatsthem.com", "desc": "Gratis personsøk i USA (navn, adresse, telefon)." },
+      { "name": "Spokeo", "url": "https://www.spokeo.com", "desc": "Personsøk og bakgrunnssjekk (USA-fokus)." },
+      { "name": "Whitepages", "url": "https://www.whitepages.com", "desc": "Telefonnummer- og adressesøk i USA." }
+    ]
+  },
+  {
+    "title": "Brukernavn & profiler 🔎",
+    "desc": "Spor brukernavn på tvers av plattformer og sosiale medier.",
+    "group": "Person-, domene- & datasøk",
+    "links": [
+      { "name": "Sherlock", "url": "https://github.com/sherlock-project/sherlock", "desc": "Python-verktøy for å søke etter brukernavn på 300+ sider." },
+      { "name": "WhatsMyName", "url": "https://whatsmyname.app", "desc": "Webbasert brukernavn-søkeverktøy." },
+      { "name": "Instant Username Search", "url": "https://instantusername.com", "desc": "Sjekk brukernavn på mange plattformer samtidig." },
+      { "name": "Namecheckr", "url": "https://www.namecheckr.com", "desc": "Domene- og brukernavnsøk." },
+      { "name": "KnowEm", "url": "https://knowem.com", "desc": "Søk etter brukernavn på sosiale nettverk og domener." }
+    ]
+  },
+  {
+    "title": "E-post & telefon 📧",
+    "desc": "Finn og verifiser e-postadresser og telefonnummer.",
+    "group": "Person-, domene- & datasøk",
+    "links": [
+      { "name": "Hunter.io", "url": "https://hunter.io", "desc": "Finn e-postadresser knyttet til bestemte domener." },
+      { "name": "Email Checker", "url": "https://email-checker.net", "desc": "Verifiser om en e-postadresse eksisterer." },
+      { "name": "Phonebook.cz", "url": "https://phonebook.cz", "desc": "Søk etter domener, e-post og URLer." },
+      { "name": "Skymem", "url": "https://www.skymem.info", "desc": "Finn e-postadresser fra offentlige kilder." },
+      { "name": "Clearbit Connect", "url": "https://clearbit.com/resources/tools/connect", "desc": "Finn jobbe-poster for bedrifter (Gmail-plugin)." },
+      { "name": "VoilaNorbert", "url": "https://www.voilanorbert.com", "desc": "E-postsøk basert på navn og domene." }
+    ]
+  },
+  {
+    "title": "Domene & IP-analyse 🌐",
+    "desc": "Verktøy for å spore domener, IP-adresser og nettverksinfrastruktur.",
+    "group": "Person-, domene- & datasøk",
+    "links": [
+      { "name": "Shodan", "url": "https://www.shodan.io", "desc": "Søk etter eksponerte enheter og tjenester på internett." },
+      { "name": "Censys", "url": "https://search.censys.io", "desc": "Analyser SSL-sertifikater, tjenester og internett-metadata." },
+      { "name": "VirusTotal", "url": "https://www.virustotal.com", "desc": "Skann og del filer og domener for trusselanalyse." },
+      { "name": "IPinfo", "url": "https://ipinfo.io", "desc": "Få detaljer om IP-adresser, leverandør og geolokasjon." },
+      { "name": "crt.sh", "url": "https://crt.sh", "desc": "Søk etter SSL-sertifikater og underdomener." },
+      { "name": "Who.is", "url": "https://who.is", "desc": "Hent WHOIS-informasjon for domener og IP-adresser." },
+      { "name": "DNSDumpster", "url": "https://dnsdumpster.com", "desc": "DNS reconnaissance og kartlegging av domener." },
+      { "name": "SecurityTrails", "url": "https://securitytrails.com", "desc": "Historiske DNS-data og domeneinformasjon." },
+      { "name": "Robtex", "url": "https://www.robtex.com", "desc": "DNS- og IP-analyse med visualisering." },
+      { "name": "BGPView", "url": "https://bgpview.io", "desc": "BGP og ASN-informasjon for nettverksforskning." },
+      { "name": "Hurricane Electric BGP Toolkit", "url": "https://bgp.he.net", "desc": "BGP, DNS og nettverksverktøy." }
+    ]
+  },
+  {
+    "title": "Datasøk & lekkasjer 🧠",
+    "desc": "Finn informasjon i åpne databaser, lekkasjer og arkivkilder.",
+    "group": "Person-, domene- & datasøk",
+    "links": [
+      { "name": "Have I Been Pwned", "url": "https://haveibeenpwned.com", "desc": "Sjekk om e-post eller brukernavn er berørt av datalekkasjer." },
+      { "name": "DeHashed", "url": "https://www.dehashed.com", "desc": "Database for lekkede brukernavn, passord og domener." },
+      { "name": "Wayback Machine", "url": "https://archive.org/web", "desc": "Se historiske nettsider gjennom Internet Archive." },
+      { "name": "Intelligence X", "url": "https://intelx.io", "desc": "Søk i lekkede databaser og darknet." },
+      { "name": "LeakCheck", "url": "https://leakcheck.io", "desc": "Database over kompromitterte e-poster og passord." },
+      { "name": "Breach Directory", "url": "https://breachdirectory.org", "desc": "Gratis søk i datalekkasjer." },
+      { "name": "Snusbase", "url": "https://snusbase.com", "desc": "Omfattende database over lekkasjer (betalt)." },
+      { "name": "GhostProject", "url": "https://ghostproject.fr", "desc": "Søk i milliarder av lekkede credentials." }
+    ]
+  },
+  {
+    "title": "Business & bedrifter 🏢",
+    "desc": "Finn firmainfo, org-nummer og forretningstilknytninger.",
+    "group": "Person-, domene- & datasøk",
+    "links": [
+      { "name": "Brønnøysundregistrene", "url": "https://www.brreg.no", "desc": "Norsk bedriftsregister med org-nummer og roller." },
+      { "name": "Proff.no", "url": "https://www.proff.no", "desc": "Norsk bedriftsinformasjon og økonomi." },
+      { "name": "OpenCorporates", "url": "https://opencorporates.com", "desc": "Verdens største åpne database over bedrifter." },
+      { "name": "Companies House", "url": "https://www.gov.uk/government/organisations/companies-house", "desc": "Britisk bedriftsregister." },
+      { "name": "CrunchBase", "url": "https://www.crunchbase.com", "desc": "Startup- og bedriftsinformasjon." },
+      { "name": "EDGAR", "url": "https://www.sec.gov/edgar", "desc": "USA SEC-arkiv for børsnoterte selskaper." },
+      { "name": "Import.io", "url": "https://www.import.io", "desc": "Web scraping for bedriftsdata." }
+    ]
+  },
+  {
+    "title": "Dokumenter & filer 📄",
+    "desc": "Søk, analyser og trekk ut informasjon fra dokumenter.",
+    "group": "Person-, domene- & datasøk",
+    "links": [
+      { "name": "DocumentCloud", "url": "https://www.documentcloud.org", "desc": "Analyser og annoteringer av offentlige dokumenter." },
+      { "name": "PDF Examiner", "url": "https://github.com/zbetcheckin/PDF_analysis", "desc": "Analyser PDF-metadata og struktur." },
+      { "name": "ExifTool", "url": "https://exiftool.org", "desc": "Les og rediger metadata fra filer." },
+      { "name": "Google Dorks Database", "url": "https://www.exploit-db.com/google-hacking-database", "desc": "Database over Google dorks for dokumentsøk." },
+      { "name": "FileInfo", "url": "https://fileinfo.com", "desc": "Identifiser filformater og extensions." }
+    ]
+  },
+  {
+    "title": "Bildesøk & verifisering 📷",
+    "desc": "Finn kilden til bilder og avdekk manipulasjon.",
+    "group": "Media, kart & geolokasjon",
+    "links": [
+      { "name": "Google Reverse Image Search", "url": "https://images.google.com", "desc": "Finn lignende bilder og kilder." },
+      { "name": "TinEye", "url": "https://tineye.com", "desc": "Omvendt bildesøk med historikk og tracking." },
+      { "name": "Yandex Images", "url": "https://yandex.com/images", "desc": "Kraftig omvendt bildesøk, ofte bedre enn Google." },
+      { "name": "InVID", "url": "https://www.invid-project.eu", "desc": "Verifiser videoer og bilder (Chrome/Firefox plugin)." },
+      { "name": "FotoForensics", "url": "https://fotoforensics.com", "desc": "Analyser bilder for manipulasjon med ELA." },
+      { "name": "Jeffrey's Image Metadata Viewer", "url": "http://exif.regex.info/exif.cgi", "desc": "Les EXIF-data fra bilder." },
+      { "name": "Pic2Map", "url": "https://www.pic2map.com", "desc": "Vis GPS-data fra bilder på kart." }
+    ]
+  },
+  {
+    "title": "Kart & geolokasjon 🗺️",
+    "desc": "Analyser geografiske data, satellitt-bilder og bevegelsesmønstre.",
+    "group": "Media, kart & geolokasjon",
+    "links": [
+      { "name": "Google Earth", "url": "https://earth.google.com", "desc": "Utforsk satellitt-bilder og terrengdata fra hele verden." },
+      { "name": "Mapillary", "url": "https://www.mapillary.com", "desc": "Street-view-bilder og crowdsourcet kartinformasjon." },
+      { "name": "OpenStreetMap", "url": "https://www.openstreetmap.org", "desc": "Åpen, redigerbar kartdatabase drevet av frivillige." },
+      { "name": "SunCalc", "url": "https://suncalc.org", "desc": "Analyser sol- og skyggedata for geolokasjonsbekreftelse." },
+      { "name": "Overpass Turbo", "url": "https://overpass-turbo.eu", "desc": "Avansert søk i OpenStreetMap-data." },
+      { "name": "Sentinel Hub", "url": "https://www.sentinel-hub.com", "desc": "Satellittbilder fra ESA Sentinel-programmet." },
+      { "name": "Zoom Earth", "url": "https://zoom.earth", "desc": "Sanntids satellittbilder og værdata." },
+      { "name": "What3Words", "url": "https://what3words.com", "desc": "Finn nøyaktige lokasjoner med 3-ords adresser." }
+    ]
+  },
+  {
+    "title": "Sosiale medier 📱",
+    "desc": "Analyseverktøy for Twitter, Facebook, Instagram og andre plattformer.",
+    "group": "Media, kart & geolokasjon",
+    "links": [
+      { "name": "Social Bearing", "url": "https://socialbearing.com", "desc": "Twitter-analyse og søk i tweets." },
+      { "name": "Twint", "url": "https://github.com/twintproject/twint", "desc": "Python-verktøy for å scrape Twitter uten API." },
+      { "name": "TweetDeck", "url": "https://tweetdeck.twitter.com", "desc": "Avansert Twitter-dashboard fra Twitter selv." },
+      { "name": "Nitter", "url": "https://nitter.net", "desc": "Personvern-vennlig Twitter-frontend." },
+      { "name": "InstaLoader", "url": "https://github.com/instaloader/instaloader", "desc": "Last ned Instagram-profiler, stories og posts." },
+      { "name": "Picuki", "url": "https://www.picuki.com", "desc": "Instagram-viewer uten innlogging." },
+      { "name": "YouTube DataViewer", "url": "https://citizenevidence.amnestyusa.org", "desc": "Trekk ut metadata fra YouTube-videoer." },
+      { "name": "Reddit Investigator", "url": "https://www.redditinvestigator.com", "desc": "Analyser Reddit-brukerprofiler." },
+      { "name": "Reddit Search", "url": "https://redditsearch.io", "desc": "Avansert søk i Reddit-kommentarer og poster." }
+    ]
+  },
+  {
+    "title": "Transport & kjøretøy 🚗",
+    "desc": "Søk etter kjøretøy, fly og skip.",
+    "group": "Media, kart & geolokasjon",
+    "links": [
+      { "name": "FlightRadar24", "url": "https://www.flightradar24.com", "desc": "Sanntids flytrafikksporing." },
+      { "name": "MarineTraffic", "url": "https://www.marinetraffic.com", "desc": "Spor skip og maritim trafikk globalt." },
+      { "name": "VesselFinder", "url": "https://www.vesselfinder.com", "desc": "Alternativ skipssporingstjeneste." },
+      { "name": "Statens vegvesen - Kjøretøyopplysninger", "url": "https://www.vegvesen.no/kjoretoy", "desc": "Norsk kjøretøyregister (krever innlogging for detaljer)." },
+      { "name": "CarVertical", "url": "https://www.carvertical.com", "desc": "Bilhistorikk og VIN-sjekk." },
+      { "name": "ADS-B Exchange", "url": "https://www.adsbexchange.com", "desc": "Ufiltrert flysporing uten restriksjoner." }
+    ]
+  },
+  {
+    "title": "Søkemotorer & web-scraping 🔍",
+    "desc": "Spesialiserte søkemotorer og scraping-verktøy.",
+    "group": "Teknisk analyse & automasjon",
+    "links": [
+      { "name": "Google Advanced Search", "url": "https://www.google.com/advanced_search", "desc": "Avansert Google-søk med filtre og operatorer." },
+      { "name": "DuckDuckGo", "url": "https://duckduckgo.com", "desc": "Personvern-fokusert søkemotor uten tracking." },
+      { "name": "Yandex", "url": "https://yandex.com", "desc": "Russisk søkemotor, god for bildesøk." },
+      { "name": "Baidu", "url": "https://www.baidu.com", "desc": "Kinesisk søkemotor." },
+      { "name": "Startpage", "url": "https://www.startpage.com", "desc": "Anonym Google-søk uten tracking." },
+      { "name": "Ahmia", "url": "https://ahmia.fi", "desc": "Søkemotor for Tor og darknet-innhold." },
+      { "name": "Grep.app", "url": "https://grep.app", "desc": "Søk i over 500k GitHub-repositories." },
+      { "name": "Scrapy", "url": "https://scrapy.org", "desc": "Python-rammeverk for web-scraping." },
+      { "name": "Beautiful Soup", "url": "https://www.crummy.com/software/BeautifulSoup", "desc": "Python-bibliotek for HTML- og XML-parsing." }
+    ]
+  },
+  {
+    "title": "Darknet & Tor 🕵️",
+    "desc": "Verktøy for å navigere og søke i det skjulte nettet.",
+    "group": "Teknisk analyse & automasjon",
+    "links": [
+      { "name": "Tor Browser", "url": "https://www.torproject.org", "desc": "Anonym nettleser for tilgang til Tor-nettverket." },
+      { "name": "OnionScan", "url": "https://github.com/s-rah/onionscan", "desc": "Skann .onion-sider for sikkerhetsproblemer." },
+      { "name": "Ahmia", "url": "https://ahmia.fi", "desc": "Søkemotor for Tor-nettverk." },
+      { "name": "DarkSearch", "url": "https://darksearch.io", "desc": "Darknet-søkemotor med API." },
+      { "name": "Onion.live", "url": "https://onion.live", "desc": "Directory av aktive .onion-sider." },
+      { "name": "Dark.fail", "url": "https://dark.fail", "desc": "Verifiserte lenker til darknet-markeder." }
+    ]
+  },
+  {
+    "title": "Verktøy & automasjon ⚙️",
+    "desc": "Kjør søk, scraping og analyse med automatiserte løsninger.",
+    "group": "Teknisk analyse & automasjon",
+    "links": [
+      { "name": "SpiderFoot", "url": "https://www.spiderfoot.net", "desc": "Automatisert OSINT-innhenting og korrelasjon av data." },
+      { "name": "Maltego", "url": "https://www.maltego.com", "desc": "Visuelle grafer og datakoblinger for etterforskning." },
+      { "name": "Recon-ng", "url": "https://github.com/lanmaster53/recon-ng", "desc": "OSINT-rammeverk i Python for automatisert datainnsamling." },
+      { "name": "TheHarvester", "url": "https://github.com/laramies/theHarvester", "desc": "Verktøy for e-post- og domenesøk." },
+      { "name": "OSINT Framework CLI", "url": "https://github.com/lockfale/osint-framework", "desc": "Kommandolinje-versjon av OSINT Framework." },
+      { "name": "Photon", "url": "https://github.com/s0md3v/Photon", "desc": "Rask web-crawler for OSINT." },
+      { "name": "Metagoofil", "url": "https://github.com/laramies/metagoofil", "desc": "Trekk ut metadata fra offentlige dokumenter." },
+      { "name": "Amass", "url": "https://github.com/OWASP/Amass", "desc": "OWASP-verktøy for nettverkskartlegging og DNS-enum." },
+      { "name": "FOCA", "url": "https://github.com/ElevenPaths/FOCA", "desc": "Metadata-analyse og informasjonsinnsamling." }
+    ]
+  },
+  {
+    "title": "Kryptoanalyse & blockchain 💰",
+    "desc": "Spor kryptovaluta-transaksjoner og blockchain-aktivitet.",
+    "group": "Teknisk analyse & automasjon",
+    "links": [
+      { "name": "Blockchain Explorer", "url": "https://www.blockchain.com/explorer", "desc": "Bitcoin blockchain-utforsker." },
+      { "name": "Etherscan", "url": "https://etherscan.io", "desc": "Ethereum blockchain og smart contracts." },
+      { "name": "Wallet Explorer", "url": "https://www.walletexplorer.com", "desc": "Bitcoin wallet clustering og analyse." },
+      { "name": "Crystal Blockchain", "url": "https://crystalblockchain.com", "desc": "Profesjonell blockchain-analyse (kommersielt)." },
+      { "name": "Chainalysis", "url": "https://www.chainalysis.com", "desc": "Compliance og etterforskning av krypto." }
+    ]
+  }
+]
