@@ -331,5 +331,27 @@
       { "name": "Paddle", "url": "https://www.paddle.com", "desc": "Betalingsplatform for SaaS." },
       { "name": "LemonSqueezy", "url": "https://www.lemonsqueezy.com", "desc": "Merchant of record for digital produkter." }
     ]
-  }
+  },
+{
+  "title": "PhotoVault API & tjenester 🔑",
+  "desc": "Lenker til API-kilder, konsoller og utviklerdashboards brukt i PhotoVault-prosjektet.",
+  "group": "Utvikling & teknologi",
+  "links": [
+    { "name": "Firebase Console", "url": "https://console.firebase.google.com", "desc": "Administrer Auth, Firestore, Storage og Hosting." },
+    { "name": "Firestore Database", "url": "https://console.firebase.google.com/u/0/project/_/firestore/data", "desc": "Direkte tilgang til Firestore data." },
+    { "name": "Firebase Storage", "url": "https://console.firebase.google.com/u/0/project/_/storage/files", "desc": "Last opp og administrer filer i Storage-bucket." },
+    { "name": "Firebase Cloud Functions", "url": "https://console.firebase.google.com/u/0/project/_/functions/list", "desc": "Funksjoner for AI-proxy, eksport og Stripe." },
+    { "name": "Google Cloud Console", "url": "https://console.cloud.google.com", "desc": "Administrer API-tjenester og nøkler." },
+    { "name": "Google Vision API", "url": "https://console.cloud.google.com/apis/library/vision.googleapis.com", "desc": "Brukes til auto-tagging og bildegjenkjenning." },
+    { "name": "Gemini API (Google AI Studio)", "url": "https://makersuite.google.com/app/apikey", "desc": "Hent Gemini-nøkler for AI-funksjoner." },
+    { "name": "Picsart Developer Dashboard", "url": "https://developer.picsart.io", "desc": "API-nøkler og dokumentasjon for bildebehandling." },
+    { "name": "Stripe Dashboard", "url": "https://dashboard.stripe.com/test/apikeys", "desc": "Administrer test- og live-nøkler for betaling." },
+    { "name": "OpenAI API", "url": "https://platform.openai.com/api-keys", "desc": "Nøkler for GPT-integrasjon (brukes i prompt-forsterkning)." },
+    { "name": "Firebase Billing", "url": "https://console.firebase.google.com/project/_/usage/details", "desc": "Se ressursbruk og kostnader." },
+    { "name": "Cloud Functions Logs", "url": "https://console.cloud.google.com/functions/list", "desc": "Feilsøk og se loggføringer for funksjoner." },
+    { "name": "Netlify Dashboard", "url": "https://app.netlify.com", "desc": "Distribusjon og miljøvariabler for frontend." },
+    { "name": "GitHub Repository", "url": "https://github.com/cre8xf/PhotoVault", "desc": "Kildekode og issues for prosjektet." }
+  ]
+}
+
 ]

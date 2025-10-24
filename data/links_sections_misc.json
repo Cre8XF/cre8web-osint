@@ -186,5 +186,35 @@
       { "name": "Hacker News", "url": "https://news.ycombinator.com", "desc": "Nyheter og diskusjoner om teknologi og oppstartsselskaper." },
       { "name": "TechCrunch", "url": "https://techcrunch.com", "desc": "Nyheter om teknologi og startups." }
     ]
-  }
+  },
+{
+  "title": "Jobbsøk & karriere 💼",
+  "desc": "Portaler og nettsteder for å finne ledige stillinger, prosjekter og karrieremuligheter i Norge.",
+  "group": "Læring & karriere",
+  "links": [
+    { "name": "FINN jobb", "url": "https://www.finn.no/job/fulltime/search.html", "desc": "Størst i Norge – faste og midlertidige stillinger i alle bransjer." },
+    { "name": "NAV Arbeidsplassen", "url": "https://arbeidsplassen.nav.no", "desc": "Offisiell portal for jobbsøk og rekruttering i Norge." },
+    { "name": "Jobbnorge", "url": "https://www.jobbnorge.no", "desc": "Ledige stillinger i stat, kommune og utdanningssektoren." },
+    { "name": "Indeed", "url": "https://no.indeed.com", "desc": "Søkemotor som samler stillinger fra mange kilder." },
+    { "name": "KarriereStart", "url": "https://karrierestart.no", "desc": "Stillinger, karrieretips og bransjeoversikt." },
+    { "name": "Manpower", "url": "https://www.manpower.no", "desc": "Bemanning og rekruttering – kontor, lager og administrasjon." },
+    { "name": "Adecco", "url": "https://www.adecco.no", "desc": "Rekruttering og midlertidige stillinger i hele Norge." },
+    { "name": "Randstad", "url": "https://www.randstad.no", "desc": "Rekruttering innen industri, IT og kontor." },
+    { "name": "Toptemp", "url": "https://www.toptemp.no", "desc": "IT, tekniske og administrative stillinger." },
+    { "name": "People", "url": "https://www.people.no", "desc": "Lokale rekrutteringsbyråer med stillinger i Østfold og Viken." },
+    { "name": "LinkedIn Jobs", "url": "https://www.linkedin.com/jobs", "desc": "Profesjonelt nettverk med jobbannonser og karrieremuligheter." },
+    { "name": "kode24 jobb", "url": "https://www.kode24.no/jobb", "desc": "Utvikler- og tech-stillinger i Norge." },
+    { "name": "Stack Overflow Jobs", "url": "https://stackoverflow.com/jobs", "desc": "Internasjonale utviklerjobber." },
+    { "name": "Glassdoor (Norway)", "url": "https://www.glassdoor.com/Job/norway-jobs-SRCH_IL.0,6_IN178.htm", "desc": "Jobbannonser med firmavurderinger og lønnsdata." },
+    { "name": "Jobbsafari", "url": "https://www.jobbsafari.no", "desc": "Samler annonser for butikk, lager og service." },
+    { "name": "Coop Karriere", "url": "https://karriere.coop.no", "desc": "Ledige stillinger i Coop – butikk, lager og logistikk." },
+    { "name": "Elkjøp Karriere", "url": "https://jobb.elkjop.no", "desc": "Stillinger innen salg, kundeservice og logistikk." },
+    { "name": "Biltema Karriere", "url": "https://www.biltema.no/karriere", "desc": "Butikk- og lagerstillinger i hele Norge." },
+    { "name": "Europris Karriere", "url": "https://europris.no/karriere", "desc": "Ledige stillinger på hovedkontor og i butikk." },
+    { "name": "NAV – Fredrikstad", "url": "https://arbeidsplassen.nav.no/stillinger/sted/Fredrikstad", "desc": "Lokale stillinger i Fredrikstad og omegn." },
+    { "name": "Jobbsmart", "url": "https://jobbsmart.no", "desc": "Stillinger i Østfold og Follo-regionen." },
+    { "name": "Viken – ledige stillinger", "url": "https://viken.no/om-viken-fylkeskommune/ledige-stillinger", "desc": "Offentlige stillinger i fylkeskommunen." }
+  ]
+}
+
 ]
