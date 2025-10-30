@@ -1,109 +1,318 @@
 <!doctype html>
 <html lang="no">
-
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Cre8Web OSINT Hub – Mine favoritter</title>
-    <link rel="manifest" href="manifest.json" />
-    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cre8Web OSINT Hub - Din profesjonelle lenkeportal for AI-verktøy, OSINT-ressurser, prosjekter og nyheter. Start.me-inspirert design med favoritt-system.">
+    <meta name="keywords" content="OSINT, AI-verktøy, lenkeportal, favoritter, nyheter, cybersikkerhet, webverktøy">
+    <meta name="author" content="Cre8Web">
+    <meta name="theme-color" content="#3b82f6">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://cre8web-osint-hub.netlify.app/">
+    <meta property="og:title" content="Cre8Web OSINT Hub - Premium Lenkeportal">
+    <meta property="og:description" content="Din profesjonelle hub for AI-verktøy, OSINT-ressurser og nyheter. Over 200+ kuraterte lenker.">
+    <meta property="og:image" content="https://cre8web-osint-hub.netlify.app/og-image.png">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://cre8web-osint-hub.netlify.app/">
+    <meta property="twitter:title" content="Cre8Web OSINT Hub">
+    <meta property="twitter:description" content="Din profesjonelle hub for AI-verktøy og OSINT-ressurser">
+    <meta property="twitter:image" content="https://cre8web-osint-hub.netlify.app/og-image.png">
+    
+    <title>Cre8Web OSINT Hub - Mine Favoritter</title>
+    
+    <!-- PWA & Icons -->
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+    
+    <!-- Preconnect for Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="dns-prefetch" href="https://www.google.com">
+    <link rel="dns-prefetch" href="https://api.rss2json.com">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="css/index-layout.css">
     <link rel="stylesheet" href="css/index-theme.css">
     <link rel="stylesheet" href="css/news.css">
+    
+    <!-- Preload Critical Resources -->
+    <link rel="preload" href="js/helpers.js" as="script">
+    <link rel="preload" href="js/favorites.js" as="script">
 </head>
 
 <body data-page="index">
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-link">Hopp til hovedinnhold</a>
+    
     <!-- Header -->
-    <header class="topbar glass">
-        <div class="brand"><span class="dot"></span><strong>Cre8Web OSINT Hub</strong><span class="version">v7</span>
+    <header class="topbar glass" role="banner">
+        <div class="brand">
+            <span class="dot" aria-hidden="true"></span>
+            <strong>Cre8Web OSINT Hub</strong>
+            <span class="version">v7 Premium</span>
         </div>
-        <nav class="nav">
-            <button class="navlink" onclick="location.href='ai.html'">🤖 AI</button>
-            <button class="navlink" onclick="location.href='osint.html'">🕵️ OSINT</button>
-            <button class="navlink" onclick="location.href='projects.html'">🧩 Prosjekter</button>
-            <button class="navlink" onclick="location.href='news.html'">📰 Nyheter</button>
-            <button class="navlink" onclick="location.href='misc.html'">🧰 Diverse</button>
-            <input type="search" id="searchInput" placeholder="Søk i favoritter…" />
-            <button id="toggleFavorites" title="Vis alle">⭐</button>
-            <button id="refreshBtn" title="Oppdater">🔄</button>
-            <button id="themeToggle" title="Bytt tema">🌓</button>
-            <button id="toolsToggle" title="Mini-verktøy">⚙️</button>
+        <nav class="nav" role="navigation" aria-label="Hovednavigasjon">
+            <button class="navlink" onclick="location.href='ai.html'" aria-label="Gå til AI-verktøy">
+                🤖 AI
+            </button>
+            <button class="navlink" onclick="location.href='osint.html'" aria-label="Gå til OSINT-ressurser">
+                🕵️ OSINT
+            </button>
+            <button class="navlink" onclick="location.href='projects.html'" aria-label="Gå til prosjekter">
+                🧩 Prosjekter
+            </button>
+            <button class="navlink" onclick="location.href='news.html'" aria-label="Gå til nyheter">
+                📰 Nyheter
+            </button>
+            <button class="navlink" onclick="location.href='misc.html'" aria-label="Gå til diverse">
+                🧰 Diverse
+            </button>
+            
+            <input 
+                type="search" 
+                id="searchInput" 
+                placeholder="Søk i favoritter… (Ctrl+K)" 
+                aria-label="Søk i favoritter"
+                autocomplete="off"
+            >
+            
+            <button id="toggleFavorites" title="Scroll til topp" aria-label="Scroll til topp">
+                ⭐
+            </button>
+            <button id="exportBtn" title="Eksporter favoritter" aria-label="Eksporter favoritter">
+                💾
+            </button>
+            <button id="importBtn" title="Importer favoritter" aria-label="Importer favoritter">
+                📂
+            </button>
+            <button id="refreshBtn" title="Oppdater side" aria-label="Oppdater side">
+                🔄
+            </button>
+            <button id="themeToggle" title="Bytt tema (light/dark)" aria-label="Bytt fargetema">
+                🌓
+            </button>
+            <button id="toolsToggle" title="Åpne mini-verktøy" aria-label="Åpne verktøypanel">
+                ⚙️
+            </button>
         </nav>
     </header>
 
-    <!-- Innhold -->
-    <main class="layout">
-        <section class="favorites-area">
-            <h1>⭐ Mine favoritter</h1>
-            <div id="fav-groups"></div>
-            <p id="noFavs" class="no-favs" style="display:none">Ingen favoritter enda.</p>
+    <!-- Main Content -->
+    <main id="main-content" class="layout" role="main">
+        <!-- Favorites Section -->
+        <section class="favorites-area" aria-labelledby="favorites-heading">
+            <header class="section-header">
+                <h1 id="favorites-heading">⭐ Mine favoritter</h1>
+                <p class="section-desc">Dine lagrede lenker fra alle kategorier</p>
+            </header>
+            
+            <div id="fav-groups" role="region" aria-label="Favorittgrupper"></div>
+            
+            <div id="noFavs" class="no-favs" style="display:none" role="status">
+                <p>Ingen favoritter enda.</p>
+                <p>Utforsk sidene og legg til dine favoritt-lenker! ⭐</p>
+            </div>
         </section>
 
-        <section id="newsSection" class="news-grid">
+        <!-- News Section -->
+        <aside id="newsSection" class="news-grid" role="complementary" aria-label="Nyhetsfeeds">
             <article class="news-card glass">
                 <h2>🗞️ Siste nytt fra VG</h2>
-                <ul id="vgNewsList" class="news-list"></ul>
-                <a class="more" href="https://www.vg.no/" target="_blank" rel="noopener">Vis mer på vg.no →</a>
+                <ul id="vgNewsList" class="news-list" aria-label="VG nyheter"></ul>
+                <a class="more" href="https://www.vg.no/" target="_blank" rel="noopener noreferrer">
+                    Vis mer på vg.no →
+                </a>
             </article>
+            
             <article class="news-card glass">
                 <h2>💻 Nyheter fra Kode24</h2>
-                <ul id="kodeNewsList" class="news-list"></ul>
-                <a class="more" href="https://www.kode24.no/" target="_blank" rel="noopener">Vis mer på kode24.no →</a>
+                <ul id="kodeNewsList" class="news-list" aria-label="Kode24 nyheter"></ul>
+                <a class="more" href="https://www.kode24.no/" target="_blank" rel="noopener noreferrer">
+                    Vis mer på kode24.no →
+                </a>
             </article>
-        </section>
+        </aside>
     </main>
 
-    <footer class="footer"><small>© 2025 Cre8Web — OSINT Hub</small></footer>
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <small>© 2025 Cre8Web — OSINT Hub Premium Edition</small>
+        <br>
+        <small>
+            <a href="https://github.com/cre8web" target="_blank" rel="noopener">GitHub</a> • 
+            <a href="mailto:kontakt@cre8web.no">Kontakt</a> • 
+            <a href="#" id="aboutLink">Om prosjektet</a>
+        </small>
+    </footer>
 
-    <!-- Slide-out mini-verktøy -->
-    <aside id="toolsPanel" class="tools-panel glass">
+    <!-- Tools Panel (Slide-out) -->
+    <aside id="toolsPanel" class="tools-panel glass" role="complementary" aria-label="Verktøypanel">
         <header>
-            <h3>🧩 Mini-verktøy</h3><button id="toolsClose">✕</button>
+            <h3>🧩 Mini-verktøy</h3>
+            <button id="toolsClose" aria-label="Lukk verktøypanel">✕</button>
         </header>
 
+        <!-- JSON/CSV Converter -->
         <section class="tool">
             <h4>JSON ⇄ CSV</h4>
-            <textarea id="jsonInput" placeholder="Lim inn JSON eller CSV…"></textarea>
+            <label for="jsonInput" class="sr-only">JSON eller CSV input</label>
+            <textarea id="jsonInput" placeholder="Lim inn JSON eller CSV…" aria-label="Input for konvertering"></textarea>
+            
             <div class="row">
-                <button data-tool="json-to-csv">JSON → CSV</button>
-                <button data-tool="csv-to-json">CSV → JSON</button>
+                <button data-tool="json-to-csv" aria-label="Konverter JSON til CSV">
+                    JSON → CSV
+                </button>
+                <button data-tool="csv-to-json" aria-label="Konverter CSV til JSON">
+                    CSV → JSON
+                </button>
             </div>
-            <textarea id="jsonOutput" placeholder="Resultat…"></textarea>
-            <button class="copy" data-copy="#jsonOutput">Kopier resultat</button>
+            
+            <label for="jsonOutput" class="sr-only">Konvertert resultat</label>
+            <textarea id="jsonOutput" placeholder="Resultat…" readonly aria-label="Output fra konvertering"></textarea>
+            <button class="copy" data-copy="#jsonOutput" aria-label="Kopier resultat">
+                📋 Kopier resultat
+            </button>
         </section>
 
+        <!-- URL Encoder/Decoder -->
         <section class="tool">
             <h4>URL Encode / Decode</h4>
-            <textarea id="urlBox" placeholder="Lim inn tekst eller URL…"></textarea>
+            <label for="urlBox" class="sr-only">URL eller tekst</label>
+            <textarea id="urlBox" placeholder="Lim inn tekst eller URL…" aria-label="URL input"></textarea>
+            
             <div class="row">
-                <button data-tool="url-encode">Encode</button>
-                <button data-tool="url-decode">Decode</button>
+                <button data-tool="url-encode" aria-label="URL encode">Encode</button>
+                <button data-tool="url-decode" aria-label="URL decode">Decode</button>
             </div>
         </section>
 
+        <!-- Base64 Encoder/Decoder -->
         <section class="tool">
             <h4>Base64 Encode / Decode</h4>
-            <textarea id="b64Box" placeholder="Lim inn tekst…"></textarea>
+            <label for="b64Box" class="sr-only">Base64 tekst</label>
+            <textarea id="b64Box" placeholder="Lim inn tekst…" aria-label="Base64 input"></textarea>
+            
             <div class="row">
-                <button data-tool="b64-encode">Encode</button>
-                <button data-tool="b64-decode">Decode</button>
+                <button data-tool="b64-encode" aria-label="Base64 encode">Encode</button>
+                <button data-tool="b64-decode" aria-label="Base64 decode">Decode</button>
             </div>
         </section>
 
+        <!-- LocalStorage Manager -->
         <section class="tool">
             <h4>LocalStorage</h4>
-            <button id="clearLs">Tøm lagrede data</button>
+            <button id="clearLs" aria-label="Tøm all lagret data">
+                🗑️ Tøm lagrede data
+            </button>
         </section>
     </aside>
 
-    <!-- JS -->
+    <!-- Hidden file input for import -->
+    <input type="file" id="fileInput" accept=".json" style="display:none" aria-label="Velg fil å importere">
+
+    <!-- Loading Indicator -->
+    <div id="loadingIndicator" class="loading" style="display:none" role="status" aria-live="polite">
+        <div class="spinner"></div>
+        <p>Laster...</p>
+    </div>
+
+    <!-- Scripts -->
     <script type="module" src="js/helpers.js"></script>
     <script type="module" src="js/favorites.js"></script>
     <script type="module" src="js/tools.js"></script>
     <script type="module" src="js/news.js"></script>
     <script type="module" src="js/index.js"></script>
-</body>
+    
+    <!-- Service Worker Registration -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/service-worker.js')
+                    .then(reg => console.log('✅ Service Worker registrert'))
+                    .catch(err => console.log('❌ Service Worker feil:', err));
+            });
+        }
+    </script>
 
+    <!-- Keyboard Shortcuts -->
+    <script>
+        document.addEventListener('keydown', (e) => {
+            // Ctrl+K eller Cmd+K for søk
+            if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
+                e.preventDefault();
+                document.getElementById('searchInput').focus();
+            }
+            // Escape for å lukke verktøypanel
+            if (e.key === 'Escape') {
+                document.getElementById('toolsPanel').classList.remove('active');
+            }
+        });
+    </script>
+
+    <!-- Screen Reader Only Styles -->
+    <style>
+        .sr-only, .skip-link {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border-width: 0;
+        }
+        
+        .skip-link:focus {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            width: auto;
+            height: auto;
+            padding: 1rem;
+            background: var(--accent-blue);
+            color: white;
+            border-radius: 8px;
+            z-index: 9999;
+            clip: auto;
+        }
+        
+        .loading {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: var(--bg-card);
+            padding: 2rem;
+            border-radius: 16px;
+            box-shadow: var(--shadow-lg);
+            text-align: center;
+            z-index: 9999;
+        }
+        
+        .spinner {
+            width: 40px;
+            height: 40px;
+            border: 4px solid rgba(59, 130, 246, 0.2);
+            border-top-color: #3b82f6;
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+            margin: 0 auto 1rem;
+        }
+        
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+    </style>
+</body>
 </html>
