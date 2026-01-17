@@ -30,6 +30,7 @@ const STATIC_ASSETS = [
   '/js/page-render.js',
   '/js/index.js',
   '/js/components.js',
+  '/js/error-handler.js',
 
   // Data - CRITICAL for offline mode!
   '/data/links_sections_index.json',
