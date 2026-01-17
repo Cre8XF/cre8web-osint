@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>AI-verktøy – Cre8Web</title>
+    <title>OSINT & Sikkerhet – Cre8Web</title>
     <link rel="manifest" href="manifest.json">
     <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,20 +14,8 @@
 </head>
 
 <body data-page="osint">
-    <header class="topbar glass">
-        <div class="brand"><span class="dot"></span><strong>Cre8Web OSINT Hub</strong><span class="version">v7</span>
-        </div>
-        <nav class="nav">
-            <button class="navlink" onclick="location.href='index.html'">🏠 Hjem</button>
-            <button class="navlink" onclick="location.href='ai.html'">🤖 AI</button>
-            <button class="navlink" onclick="location.href='osint.html'">🕵️ OSINT</button>
-            <button class="navlink" onclick="location.href='projects.html'">🧩 Prosjekter</button>
-            <button class="navlink" onclick="location.href='news.html'">📰 Nyheter</button>
-            <button class="navlink" onclick="location.href='misc.html'">🧰 Diverse</button>
-            <input type="search" id="searchInput" placeholder="Søk i lenker…">
-            <button id="refreshBtn">🔄</button><button id="themeToggle">🌓</button><button id="toolsToggle">⚙️</button>
-        </nav>
-    </header>
+    <!-- Header (rendered by components.js) -->
+    <div id="header-placeholder"></div>
 
     <main class="layout" style="grid-template-columns:1fr;">
         <section class="favorites-area">
@@ -36,42 +24,23 @@
         </section>
     </main>
 
-    <footer class="footer"><small>© 2025 Cre8Web — OSINT Hub</small></footer>
+    <!-- Footer (rendered by components.js) -->
+    <div id="footer-placeholder"></div>
 
-    <aside id="toolsPanel" class="tools-panel glass">
-        <header>
-            <h3>🧩 Mini-verktøy</h3><button id="toolsClose">✕</button>
-        </header>
-        <section class="tool">
-            <h4>JSON ⇄ CSV</h4>
-            <textarea id="jsonInput" placeholder="Lim inn JSON eller CSV…"></textarea>
-            <div class="row"><button data-tool="json-to-csv">JSON → CSV</button><button data-tool="csv-to-json">CSV →
-                    JSON</button></div>
-            <textarea id="jsonOutput" placeholder="Resultat…"></textarea>
-            <button class="copy" data-copy="#jsonOutput">Kopier resultat</button>
-        </section>
-        <section class="tool">
-            <h4>URL Encode / Decode</h4>
-            <textarea id="urlBox" placeholder="Lim inn tekst eller URL…"></textarea>
-            <div class="row"><button data-tool="url-encode">Encode</button><button
-                    data-tool="url-decode">Decode</button></div>
-        </section>
-        <section class="tool">
-            <h4>Base64 Encode / Decode</h4>
-            <textarea id="b64Box" placeholder="Lim inn tekst…"></textarea>
-            <div class="row"><button data-tool="b64-encode">Encode</button><button
-                    data-tool="b64-decode">Decode</button></div>
-        </section>
-        <section class="tool">
-            <h4>LocalStorage</h4><button id="clearLs">Tøm lagrede data</button>
-        </section>
-    </aside>
+    <!-- Tools Panel (rendered by components.js) -->
+    <div id="tools-placeholder"></div>
 
     <script type="module" src="js/helpers.js"></script>
     <script type="module" src="js/favorites.js"></script>
     <script type="module" src="js/tools.js"></script>
     <script type="module" src="js/page-init.js"></script>
     <script type="module" src="js/page-render.js"></script>
+
+    <!-- Initialize components -->
+    <script type="module">
+        import { initComponents } from './js/components.js';
+        initComponents('osint');
+    </script>
 </body>
 
 </html>
