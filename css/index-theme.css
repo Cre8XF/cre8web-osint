@@ -157,6 +157,19 @@ body[data-theme='dark'] .nav button {
   box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
 }
 
+/* Active navigation state */
+.nav .navlink.active {
+  background: var(--accent-blue);
+  color: white;
+  font-weight: 600;
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+}
+
+.nav .navlink.active:hover {
+  background: #2563eb; /* Darker blue */
+  transform: translateY(-2px);
+}
+
 .nav input[type='search'] {
   padding: 0.5rem 0.85rem;
   border-radius: 12px;
@@ -503,4 +516,23 @@ body[data-theme='dark'] .nav button {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #2563eb;
+}
+
+/* --- Accessibility: Respect User Preferences --- */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .fav-card,
+  .card,
+  .notification,
+  .link-row {
+    animation: none !important;
+  }
 }

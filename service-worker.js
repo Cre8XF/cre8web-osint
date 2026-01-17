@@ -1,11 +1,12 @@
-// service-worker.js - Premium Edition
-const CACHE_VERSION = 'cre8web-v7-premium';
+// service-worker.js - v8.0
+const CACHE_VERSION = 'cre8web-v8';
 const STATIC_CACHE = `${CACHE_VERSION}-static`;
 const DYNAMIC_CACHE = `${CACHE_VERSION}-dynamic`;
 const IMAGE_CACHE = `${CACHE_VERSION}-images`;
 
 // Files to cache immediately on install
 const STATIC_ASSETS = [
+  // HTML
   '/',
   '/index.html',
   '/ai.html',
@@ -13,9 +14,14 @@ const STATIC_ASSETS = [
   '/projects.html',
   '/news.html',
   '/misc.html',
+  '/offline.html',
+
+  // CSS
   '/css/index-layout.css',
   '/css/index-theme.css',
   '/css/news.css',
+
+  // JavaScript
   '/js/helpers.js',
   '/js/favorites.js',
   '/js/tools.js',
@@ -23,8 +29,21 @@ const STATIC_ASSETS = [
   '/js/page-init.js',
   '/js/page-render.js',
   '/js/index.js',
+  '/js/components.js',
+
+  // Data - CRITICAL for offline mode!
+  '/data/links_sections_index.json',
+  '/data/links_sections_ai.json',
+  '/data/links_sections_osint.json',
+  '/data/links_sections_projects.json',
+  '/data/links_sections_news.json',
+  '/data/links_sections_misc.json',
+
+  // Assets
   '/manifest.json',
-  '/icons/apple-touch-icon.png'
+  '/icons/apple-touch-icon.png',
+  '/icons/icon-192x192.png',
+  '/icons/icon-512x512.png'
 ];
 
 // Max cache sizes

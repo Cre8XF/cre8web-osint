@@ -54,58 +54,8 @@
     <!-- Skip to main content for accessibility -->
     <a href="#main-content" class="skip-link">Hopp til hovedinnhold</a>
     
-    <!-- Header -->
-    <header class="topbar glass" role="banner">
-        <div class="brand">
-            <span class="dot" aria-hidden="true"></span>
-            <strong>Cre8Web OSINT Hub</strong>
-            <span class="version">v7 Premium</span>
-        </div>
-        <nav class="nav" role="navigation" aria-label="Hovednavigasjon">
-            <button class="navlink" onclick="location.href='ai.html'" aria-label="Gå til AI-verktøy">
-                🤖 AI
-            </button>
-            <button class="navlink" onclick="location.href='osint.html'" aria-label="Gå til OSINT-ressurser">
-                🕵️ OSINT
-            </button>
-            <button class="navlink" onclick="location.href='projects.html'" aria-label="Gå til prosjekter">
-                🧩 Prosjekter
-            </button>
-            <button class="navlink" onclick="location.href='news.html'" aria-label="Gå til nyheter">
-                📰 Nyheter
-            </button>
-            <button class="navlink" onclick="location.href='misc.html'" aria-label="Gå til diverse">
-                🧰 Diverse
-            </button>
-            
-            <input 
-                type="search" 
-                id="searchInput" 
-                placeholder="Søk i favoritter… (Ctrl+K)" 
-                aria-label="Søk i favoritter"
-                autocomplete="off"
-            >
-            
-            <button id="toggleFavorites" title="Scroll til topp" aria-label="Scroll til topp">
-                ⭐
-            </button>
-            <button id="exportBtn" title="Eksporter favoritter" aria-label="Eksporter favoritter">
-                💾
-            </button>
-            <button id="importBtn" title="Importer favoritter" aria-label="Importer favoritter">
-                📂
-            </button>
-            <button id="refreshBtn" title="Oppdater side" aria-label="Oppdater side">
-                🔄
-            </button>
-            <button id="themeToggle" title="Bytt tema (light/dark)" aria-label="Bytt fargetema">
-                🌓
-            </button>
-            <button id="toolsToggle" title="Åpne mini-verktøy" aria-label="Åpne verktøypanel">
-                ⚙️
-            </button>
-        </nav>
-    </header>
+    <!-- Header (rendered by components.js) -->
+    <div id="header-placeholder"></div>
 
     <!-- Main Content -->
     <main id="main-content" class="layout" role="main">
@@ -144,78 +94,11 @@
         </aside>
     </main>
 
-    <!-- Footer -->
-    <footer class="footer" role="contentinfo">
-        <small>© 2025 Cre8Web — OSINT Hub Premium Edition</small>
-        <br>
-        <small>
-            <a href="https://github.com/cre8web" target="_blank" rel="noopener">GitHub</a> • 
-            <a href="mailto:kontakt@cre8web.no">Kontakt</a> • 
-            <a href="#" id="aboutLink">Om prosjektet</a>
-        </small>
-    </footer>
+    <!-- Footer (rendered by components.js) -->
+    <div id="footer-placeholder"></div>
 
-    <!-- Tools Panel (Slide-out) -->
-    <aside id="toolsPanel" class="tools-panel glass" role="complementary" aria-label="Verktøypanel">
-        <header>
-            <h3>🧩 Mini-verktøy</h3>
-            <button id="toolsClose" aria-label="Lukk verktøypanel">✕</button>
-        </header>
-
-        <!-- JSON/CSV Converter -->
-        <section class="tool">
-            <h4>JSON ⇄ CSV</h4>
-            <label for="jsonInput" class="sr-only">JSON eller CSV input</label>
-            <textarea id="jsonInput" placeholder="Lim inn JSON eller CSV…" aria-label="Input for konvertering"></textarea>
-            
-            <div class="row">
-                <button data-tool="json-to-csv" aria-label="Konverter JSON til CSV">
-                    JSON → CSV
-                </button>
-                <button data-tool="csv-to-json" aria-label="Konverter CSV til JSON">
-                    CSV → JSON
-                </button>
-            </div>
-            
-            <label for="jsonOutput" class="sr-only">Konvertert resultat</label>
-            <textarea id="jsonOutput" placeholder="Resultat…" readonly aria-label="Output fra konvertering"></textarea>
-            <button class="copy" data-copy="#jsonOutput" aria-label="Kopier resultat">
-                📋 Kopier resultat
-            </button>
-        </section>
-
-        <!-- URL Encoder/Decoder -->
-        <section class="tool">
-            <h4>URL Encode / Decode</h4>
-            <label for="urlBox" class="sr-only">URL eller tekst</label>
-            <textarea id="urlBox" placeholder="Lim inn tekst eller URL…" aria-label="URL input"></textarea>
-            
-            <div class="row">
-                <button data-tool="url-encode" aria-label="URL encode">Encode</button>
-                <button data-tool="url-decode" aria-label="URL decode">Decode</button>
-            </div>
-        </section>
-
-        <!-- Base64 Encoder/Decoder -->
-        <section class="tool">
-            <h4>Base64 Encode / Decode</h4>
-            <label for="b64Box" class="sr-only">Base64 tekst</label>
-            <textarea id="b64Box" placeholder="Lim inn tekst…" aria-label="Base64 input"></textarea>
-            
-            <div class="row">
-                <button data-tool="b64-encode" aria-label="Base64 encode">Encode</button>
-                <button data-tool="b64-decode" aria-label="Base64 decode">Decode</button>
-            </div>
-        </section>
-
-        <!-- LocalStorage Manager -->
-        <section class="tool">
-            <h4>LocalStorage</h4>
-            <button id="clearLs" aria-label="Tøm all lagret data">
-                🗑️ Tøm lagrede data
-            </button>
-        </section>
-    </aside>
+    <!-- Tools Panel (rendered by components.js) -->
+    <div id="tools-placeholder"></div>
 
     <!-- Hidden file input for import -->
     <input type="file" id="fileInput" accept=".json" style="display:none" aria-label="Velg fil å importere">
@@ -232,6 +115,12 @@
     <script type="module" src="js/tools.js"></script>
     <script type="module" src="js/news.js"></script>
     <script type="module" src="js/index.js"></script>
+
+    <!-- Initialize components -->
+    <script type="module">
+        import { initComponents } from './js/components.js';
+        initComponents('index');
+    </script>
     
     <!-- Service Worker Registration -->
     <script>
@@ -244,20 +133,7 @@
         }
     </script>
 
-    <!-- Keyboard Shortcuts -->
-    <script>
-        document.addEventListener('keydown', (e) => {
-            // Ctrl+K eller Cmd+K for søk
-            if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
-                e.preventDefault();
-                document.getElementById('searchInput').focus();
-            }
-            // Escape for å lukke verktøypanel
-            if (e.key === 'Escape') {
-                document.getElementById('toolsPanel').classList.remove('active');
-            }
-        });
-    </script>
+    <!-- Keyboard Shortcuts now handled in components.js -->
 
     <!-- Screen Reader Only Styles -->
     <style>
