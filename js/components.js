@@ -4,6 +4,7 @@
  */
 
 import { initSmartSearch, setupCommandPalette, openCommandPalette, closeCommandPalette } from './smart-search.js';
+import { initQuickAdd, openQuickAdd } from './quick-add.js';
 
 /**
  * Render header with navigation
@@ -203,24 +204,39 @@ export function renderFooter() {
  * @returns {string} HTML string
  */
 export function renderBottomNav(activePage = '') {
-    const navItems = [
-        { id: 'index', icon: '🏠', label: 'Hjem', href: 'index.html' },
-        { id: 'ai', icon: '🤖', label: 'AI', href: 'ai.html' },
-        { id: 'osint', icon: '🕵️', label: 'OSINT', href: 'osint.html' },
-        { id: 'misc', icon: '🧰', label: 'Mer', href: 'misc.html' }
-    ];
-
     return `
         <nav class="bottom-nav" role="navigation" aria-label="Hovednavigasjon mobil">
-            ${navItems.map(item => `
-                <a href="${item.href}"
-                   class="bottom-nav-item ${item.id === activePage ? 'active' : ''}"
-                   aria-label="${item.label}"
-                   aria-current="${item.id === activePage ? 'page' : 'false'}">
-                    <span class="bottom-nav-icon">${item.icon}</span>
-                    <span class="bottom-nav-label">${item.label}</span>
-                </a>
-            `).join('')}
+            <a href="index.html"
+               class="bottom-nav-item ${activePage === 'index' ? 'active' : ''}"
+               aria-label="Hjem"
+               aria-current="${activePage === 'index' ? 'page' : 'false'}">
+                <span class="bottom-nav-icon">🏠</span>
+                <span class="bottom-nav-label">Hjem</span>
+            </a>
+
+            <a href="ai.html"
+               class="bottom-nav-item ${activePage === 'ai' ? 'active' : ''}"
+               aria-label="AI"
+               aria-current="${activePage === 'ai' ? 'page' : 'false'}">
+                <span class="bottom-nav-icon">🤖</span>
+                <span class="bottom-nav-label">AI</span>
+            </a>
+
+            <button id="quick-addBtn"
+                    class="bottom-nav-item quick-add-btn"
+                    aria-label="Legg til ny lenke">
+                <span class="bottom-nav-icon quick-add-icon">➕</span>
+                <span class="bottom-nav-label">Legg til</span>
+            </button>
+
+            <a href="osint.html"
+               class="bottom-nav-item ${activePage === 'osint' ? 'active' : ''}"
+               aria-label="OSINT"
+               aria-current="${activePage === 'osint' ? 'page' : 'false'}">
+                <span class="bottom-nav-icon">🕵️</span>
+                <span class="bottom-nav-label">OSINT</span>
+            </a>
+
             <button id="bottomNavMore"
                     class="bottom-nav-item"
                     aria-label="Mer meny">
@@ -279,6 +295,10 @@ export function initComponents(activePage) {
     }).catch(err => {
         console.error('[Components] Failed to initialize smart search:', err);
     });
+
+    // Initialize Quick Add
+    initQuickAdd();
+    console.log('[Components] Quick Add initialized');
 }
 
 /**
