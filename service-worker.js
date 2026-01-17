@@ -20,6 +20,7 @@ const STATIC_ASSETS = [
   '/css/index-layout.css',
   '/css/index-theme.css',
   '/css/news.css',
+  '/css/mobile.css',
 
   // JavaScript
   '/js/helpers.js',
