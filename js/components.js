@@ -3,6 +3,8 @@
  * Eliminates 370+ lines of duplicate HTML
  */
 
+import { initSmartSearch, setupCommandPalette, openCommandPalette, closeCommandPalette } from './smart-search.js';
+
 /**
  * Render header with navigation
  * @param {string} activePage - Current page ID ('index', 'ai', 'osint', etc.)
@@ -269,6 +271,14 @@ export function initComponents(activePage) {
 
     // Setup mobile interactions
     setupMobileInteractions();
+
+    // Initialize smart search (async)
+    initSmartSearch().then(() => {
+        console.log('[Components] Smart search initialized');
+        setupCommandPalette();
+    }).catch(err => {
+        console.error('[Components] Failed to initialize smart search:', err);
+    });
 }
 
 /**
@@ -293,17 +303,13 @@ function setupNavigation() {
  */
 function setupKeyboardShortcuts() {
     document.addEventListener('keydown', (e) => {
-        // Ctrl+K or Cmd+K for search
+        // Ctrl+K or Cmd+K for command palette (smart search)
         if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
             e.preventDefault();
-            const searchInput = document.getElementById('searchInput');
-            if (searchInput) {
-                searchInput.focus();
-                searchInput.select();
-            }
+            openCommandPalette();
         }
 
-        // Escape to close panels or clear search
+        // Escape to close everything
         if (e.key === 'Escape') {
             const searchInput = document.getElementById('searchInput');
             const toolsPanel = document.getElementById('toolsPanel');
@@ -317,6 +323,13 @@ function setupKeyboardShortcuts() {
             if (toolsPanel) {
                 toolsPanel.classList.remove('active');
             }
+
+            // Close mobile components
+            closeMobileDrawer();
+            closeMobileSearch();
+
+            // Close command palette
+            closeCommandPalette();
         }
 
         // Ctrl+/ for tools panel
@@ -326,12 +339,6 @@ function setupKeyboardShortcuts() {
             if (toolsPanel) {
                 toolsPanel.classList.toggle('active');
             }
-        }
-
-        // Escape to close mobile drawer and modals
-        if (e.key === 'Escape') {
-            closeMobileDrawer();
-            closeMobileSearch();
         }
     });
 }

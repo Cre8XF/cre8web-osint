@@ -1,0 +1,330 @@
+/* =================================
+   Smart Search & Command Palette
+   Fuzzy search with Fuse.js
+   ================================= */
+
+/* --- Command Palette --- */
+.command-palette {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  pointer-events: none;
+}
+
+.command-palette.active {
+  display: block;
+  pointer-events: all;
+}
+
+.command-palette-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0);
+  backdrop-filter: blur(0px);
+  transition: all 0.3s ease;
+}
+
+.command-palette.active .command-palette-overlay {
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+}
+
+.command-palette-content {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.95);
+  width: 90%;
+  max-width: 640px;
+  max-height: 60vh;
+  background: var(--bg-card);
+  border-radius: 16px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.command-palette.active .command-palette-content {
+  transform: translate(-50%, 0) scale(1);
+  opacity: 1;
+}
+
+/* --- Palette Header --- */
+.command-palette-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+body[data-theme='dark'] .command-palette-header {
+  border-bottom-color: rgba(255, 255, 255, 0.1);
+}
+
+.command-palette-header input {
+  flex: 1;
+  height: 48px;
+  padding: 0 16px;
+  border: none;
+  background: var(--bg-secondary);
+  border-radius: 8px;
+  font-size: 1.1rem;
+  color: var(--text-primary);
+  outline: none;
+}
+
+.command-palette-header input::placeholder {
+  color: var(--text-secondary);
+}
+
+.command-palette-header button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  background: var(--bg-secondary);
+  border: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.command-palette-header button:hover {
+  background: var(--text-secondary);
+  color: var(--bg-card);
+}
+
+.command-palette-header button span {
+  font-size: 0.75rem;
+  padding: 2px 6px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  font-family: monospace;
+}
+
+/* --- Palette Results --- */
+.command-palette-results {
+  flex: 1;
+  overflow-y: auto;
+  padding: 8px;
+}
+
+.search-results-header {
+  padding: 12px 16px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* --- Search Result Item --- */
+.search-result-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: var(--text-primary);
+  transition: all 0.2s ease;
+  margin-bottom: 4px;
+}
+
+.search-result-item:hover,
+.search-result-item:focus {
+  background: var(--bg-secondary);
+  outline: 2px solid var(--accent-blue);
+  outline-offset: -2px;
+}
+
+.search-result-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.search-result-content {
+  flex: 1;
+  min-width: 0; /* Allow text truncation */
+}
+
+.search-result-title {
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.search-result-title mark {
+  background: linear-gradient(135deg, #fbbf24, #f59e0b);
+  color: #000;
+  padding: 2px 4px;
+  border-radius: 3px;
+  font-weight: 700;
+}
+
+.search-result-desc {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin-bottom: 6px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.search-result-desc mark {
+  background: rgba(251, 191, 36, 0.3);
+  color: var(--text-primary);
+  padding: 1px 3px;
+  border-radius: 2px;
+}
+
+.search-result-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+
+.search-result-page {
+  padding: 2px 8px;
+  background: var(--accent-blue);
+  color: white;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 0.75rem;
+}
+
+.search-result-separator {
+  opacity: 0.5;
+}
+
+.search-result-group {
+  opacity: 0.8;
+}
+
+/* --- Empty State --- */
+.search-empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  text-align: center;
+  color: var(--text-secondary);
+}
+
+.search-empty-icon {
+  font-size: 4rem;
+  margin-bottom: 16px;
+  opacity: 0.5;
+}
+
+.search-empty-state p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.search-empty-state small {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+/* --- Mobile Responsive --- */
+@media (max-width: 768px) {
+  .command-palette-content {
+    top: 10%;
+    width: 95%;
+    max-height: 75vh;
+    border-radius: 12px;
+  }
+
+  .command-palette-header {
+    padding: 12px 16px;
+  }
+
+  .command-palette-header input {
+    height: 44px;
+    font-size: 1rem;
+  }
+
+  .search-result-item {
+    padding: 10px 12px;
+  }
+
+  .search-result-icon {
+    width: 28px;
+    height: 28px;
+  }
+
+  .search-result-title {
+    font-size: 0.95rem;
+  }
+
+  .search-result-desc {
+    font-size: 0.85rem;
+  }
+}
+
+/* --- Dark Mode Adjustments --- */
+body[data-theme='dark'] .command-palette-content {
+  background: var(--bg-card);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
+}
+
+body[data-theme='dark'] .search-result-item:hover,
+body[data-theme='dark'] .search-result-item:focus {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+/* --- Scrollbar Styling --- */
+.command-palette-results::-webkit-scrollbar {
+  width: 8px;
+}
+
+.command-palette-results::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.command-palette-results::-webkit-scrollbar-thumb {
+  background: var(--text-secondary);
+  border-radius: 4px;
+}
+
+.command-palette-results::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-blue);
+}
+
+/* --- Accessibility: Reduced Motion --- */
+@media (prefers-reduced-motion: reduce) {
+  .command-palette-overlay,
+  .command-palette-content,
+  .search-result-item {
+    transition: none !important;
+  }
+
+  .command-palette.active .command-palette-content {
+    animation: none !important;
+  }
+}
