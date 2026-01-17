@@ -1,0 +1,40 @@
+Les FASE_3_MOBILE_PROMPT.md og CLAUDE_CODE_PROMPT.md.
+
+Implementer FASE 3 med mobiloptimalisering:
+
+DEL 1 (1.5t): KRITISK MOBIL
+- Hamburger menu + swipe gestures
+- Bottom navigation bar
+- Responsive tools panel (full bredde mobil)
+- Touch-friendly spacing (44px+ targets)
+- Mobile search modal
+
+DEL 2 (2t): SMART SEARCH
+- Fuzzy search med Fuse.js
+- Global søk på tvers av sider
+- Keyboard shortcuts (Ctrl+K)
+- Mobile search modal
+
+DEL 3 (2t): QUICK ADD
+- Floating button (desktop)
+- Bottom nav button (mobil)
+- URL title fetching
+- Touch-optimized modal
+
+DEL 4 (4t): COLLECTIONS
+- Organiser i samlinger
+- Desktop: Drag & drop
+- Mobile: Tap-to-select + swipe-to-delete
+
+DEL 5 (2t): STATISTICS
+- Click tracking
+- Top 10 mest brukte
+- Responsive dashboard
+
+DEL 6 (1t): AUTO DARK MODE
+- Tid-basert switching
+- Manual override
+
+Test på iPhone 12 Pro, Pixel 5, iPad etter hver del.
+
+Commit mellom hver del med beskrivende meldinger.
