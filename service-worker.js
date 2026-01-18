@@ -1,5 +1,5 @@
-// service-worker.js - v8.2 (Quick Add + Smart Search + Mobile)
-const CACHE_VERSION = 'cre8web-v8.2';
+// service-worker.js - v8.2-restored (Quick Add + Smart Search + Mobile)
+const CACHE_VERSION = 'cre8web-v8.2-restored';
 const STATIC_CACHE = `${CACHE_VERSION}-static`;
 const DYNAMIC_CACHE = `${CACHE_VERSION}-dynamic`;
 const IMAGE_CACHE = `${CACHE_VERSION}-images`;
