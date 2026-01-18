@@ -301,11 +301,12 @@ export function initComponents(activePage) {
     initQuickAdd();
     console.log('[Components] Quick Add initialized');
 
-    // Initialize Collections (only on index page for now)
-    if (activePage === 'index') {
-        initCollectionsUI();
-        console.log('[Components] Collections initialized');
-    }
+    // Initialize Collections (DISABLED - needs redesign to not replace favorites view)
+    // TODO: Collections should be additive, not replace existing favorites
+    // if (activePage === 'index') {
+    //     initCollectionsUI();
+    //     console.log('[Components] Collections initialized');
+    // }
 }
 
 /**
