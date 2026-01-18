@@ -1,5 +1,5 @@
-// service-worker.js - v8.2-restored (Quick Add + Smart Search + Mobile)
-const CACHE_VERSION = 'cre8web-v8.2-restored';
+// service-worker.js - v8.4 (Quick Add + Smart Search + Mobile - Collections disabled)
+const CACHE_VERSION = 'cre8web-v8.4';
 const STATIC_CACHE = `${CACHE_VERSION}-static`;
 const DYNAMIC_CACHE = `${CACHE_VERSION}-dynamic`;
 const IMAGE_CACHE = `${CACHE_VERSION}-images`;
@@ -23,6 +23,7 @@ const STATIC_ASSETS = [
   '/css/mobile.css',
   '/css/smart-search.css',
   '/css/quick-add.css',
+  // '/css/collections.css', // DISABLED - breaks layout
 
   // JavaScript
   '/js/helpers.js',
@@ -36,6 +37,8 @@ const STATIC_ASSETS = [
   '/js/error-handler.js',
   '/js/smart-search.js',
   '/js/quick-add.js',
+  // '/js/collections.js', // DISABLED - not used
+  // '/js/collections-ui.js', // DISABLED - breaks layout
 
   // Data - CRITICAL for offline mode!
   '/data/links_sections_index.json',

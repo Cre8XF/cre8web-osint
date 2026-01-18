@@ -5,6 +5,7 @@
 
 import { initSmartSearch, setupCommandPalette, openCommandPalette, closeCommandPalette } from './smart-search.js';
 import { initQuickAdd, openQuickAdd } from './quick-add.js';
+import { initCollectionsUI } from './collections-ui.js';
 
 /**
  * Render header with navigation
@@ -299,6 +300,13 @@ export function initComponents(activePage) {
     // Initialize Quick Add
     initQuickAdd();
     console.log('[Components] Quick Add initialized');
+
+    // Initialize Collections (DISABLED - needs redesign to not replace favorites view)
+    // TODO: Collections should be additive, not replace existing favorites
+    // if (activePage === 'index') {
+    //     initCollectionsUI();
+    //     console.log('[Components] Collections initialized');
+    // }
 }
 
 /**
