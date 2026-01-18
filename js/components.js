@@ -5,6 +5,7 @@
 
 import { initSmartSearch, setupCommandPalette, openCommandPalette, closeCommandPalette } from './smart-search.js';
 import { initQuickAdd, openQuickAdd } from './quick-add.js';
+import { initCollectionsUI } from './collections-ui.js';
 
 /**
  * Render header with navigation
@@ -299,6 +300,12 @@ export function initComponents(activePage) {
     // Initialize Quick Add
     initQuickAdd();
     console.log('[Components] Quick Add initialized');
+
+    // Initialize Collections (only on index page for now)
+    if (activePage === 'index') {
+        initCollectionsUI();
+        console.log('[Components] Collections initialized');
+    }
 }
 
 /**
